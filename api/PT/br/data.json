@@ -139,52 +139,7 @@
       "Kubernetes"
     ]
   },
-  "projects": [
-    {
-      "name": "Code Forger",
-      "description": "Uma plataforma SaaS para geração automática de projetos backend, utilizando arquivos YAML para configuração. Foco em produtividade e escalabilidade para desenvolvedores.",
-      "image": "https://via.placeholder.com/600x400.png?text=Code+Forger",
-      "type": "web",
-      "technologies": [
-        "JavaScript",
-        "Node.js",
-        "React",
-        "Tailwind",
-        "Prisma"
-      ],
-      "repositoryCode": "https://github.com/ReeseArch64/code-forger",
-      "demoLink": "https://codeforger.app"
-    },
-    {
-      "name": "Gestão de Exames Veterinários",
-      "description": "Sistema para gestão de exames veterinários, incluindo cadastro de pacientes, exames, cateteres e evolução clínica.",
-      "image": "https://via.placeholder.com/600x400.png?text=Vet+Exams",
-      "type": "web",
-      "technologies": [
-        "TypeScript",
-        "React",
-        "Node.js",
-        "Prisma",
-        "PostgreSQL"
-      ],
-      "repositoryCode": "https://github.com/ReeseArch64/vet-exams",
-      "demoLink": ""
-    },
-    {
-      "name": "Game Sandbox Multiplataforma",
-      "description": "Jogo multiplataforma (Web, Desktop, Mobile) desenvolvido em Java com suporte a mods em Lua e backend em PHP.",
-      "image": "https://via.placeholder.com/600x400.png?text=Sandbox+Game",
-      "type": "game",
-      "technologies": [
-        "Java",
-        "Lua",
-        "PHP",
-        "MySQL"
-      ],
-      "repositoryCode": "https://github.com/ReeseArch64/sandbox-game",
-      "demoLink": ""
-    }
-  ],
+  "projects": [],
   "contact": {
     "email": "alan@asainovacoes.com",
     "phone": "+55 (62) 91234-5678"
