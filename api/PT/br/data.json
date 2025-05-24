@@ -11,9 +11,16 @@
     {
       "institution": "Universidade Cruzeiro do Sul",
       "course": "Bacharelado em Ciência da Computação",
-      "startDate": "2022-01-01",
-      "endDate": "2024-12-01",
+      "startDate": "2022-01",
+      "endDate": "2024-12",
       "description": "Ao fazer a transição para o ensino presencial, as disciplinas exploradas incluíram Estrutura de Dados, Modelagem de Dados, Bancos de Dados, Compiladores, Computação Gráfica, Sistemas Distribuídos e Sistemas Operacionais. Cada uma delas é crucial para construir sistemas de informação robustos e eficientes.\n\nEssa mudança de formato também proporcionou a oportunidade de conhecer pessoas incríveis e aprimorar habilidades de colaboração e eficiência por meio do trabalho em equipe."
+    },
+    {
+      "institution": "Universidade Uninove - Nove de Julho",
+      "course": "Técnico Análise e Desenvolvimento de Sistemas",
+      "startDate": "2019-01",
+      "endDate": "2021-12",
+      "description": "Ampla experiência em diversas áreas-chave, incluindo o desenvolvimento de websites e aplicações móveis utilizando tecnologias como React Native, bem como proficiência em linguagens como C, JavaScript e Java. Sólidas habilidades em lógica de programação, criação de fluxogramas e implementação de Ajax. Proficiente em desenvolvimento web, programação orientada a objetos e empreendedorismo, com conhecimento avançado de algoritmos utilizando Python."
     }
   ],
   "techs": {
