@@ -9,11 +9,11 @@
   },
   "education": [
     {
-      "institution": "Universidade Federal de Goiás (UFG)",
-      "course": "Bacharelado em Engenharia de Software",
-      "startDate": "2012-02-01",
-      "endDate": "2016-12-01",
-      "description": "Formação com foco em desenvolvimento de software, arquitetura de sistemas e gestão de projetos."
+      "institution": "Universidade Cruzeiro do Sul",
+      "course": "Bacharelado em Ciência da Computação",
+      "startDate": "2022-01-01",
+      "endDate": "2024-12-01",
+      "description": "Ao fazer a transição para o ensino presencial, as disciplinas exploradas incluíram **Estrutura de Dados**, **Modelagem de Dados**, **Bancos de Dados**, **Compiladores**, **Computação Gráfica**, **Sistemas Distribuídos** e **Sistemas Operacionais**. Cada uma delas é crucial para construir sistemas de informação robustos e eficientes.\n\nEssa mudança de formato também proporcionou a oportunidade de conhecer pessoas incríveis e aprimorar habilidades de colaboração e eficiência por meio do trabalho em equipe."
     }
   ],
   "techs": {
@@ -141,8 +141,8 @@
   },
   "projects": [],
   "contact": {
-    "email": "alan@asainovacoes.com",
-    "phone": "+55 (62) 91234-5678"
+    "email": "alanguerra@asainovacoes.com",
+    "phone": "+55 (62) 981432397"
   },
   "socialMedia": {
     "linkedin": "https://www.linkedin.com/in/reesearch64/",
