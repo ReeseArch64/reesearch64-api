@@ -16,24 +16,129 @@
       "description": "Formação com foco em desenvolvimento de software, arquitetura de sistemas e gestão de projetos."
     }
   ],
-  "techs": [
-    "C#",
-    "JavaScript",
-    "TypeScript",
-    ".NET",
-    "React",
-    "Next.js",
-    "Node.js",
-    "Prisma",
-    "SQL",
-    "Docker",
-    "Kubernetes",
-    "AWS",
-    "Azure",
-    "Python",
-    "Java",
-    "Lua"
-  ],
+  "techs": {
+    "langs": [
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "SQL",
+      "NoSQL"
+    ],
+    "frameworks": {
+      "backend": {
+        "csharp": [
+          ".NET",
+          ".NET Core"
+        ],
+        "node": [
+          "Express.js",
+          "Fastify",
+          "Nest.js",
+          "Adonis.js"
+        ],
+        "python": [
+          "Flask",
+          "Django",
+          "FastAPI"
+        ]
+      },
+      "frontend": {
+        "javaScript": [
+          "React.js",
+          "Next.js",
+          "Vite.js",
+          "Angular"
+        ],
+        "css": [
+          "Tailwind CSS",
+          "Shadcn",
+          "Styled Components",
+          "Sass",
+          "Bootstrap",
+          "Material UI"
+        ]
+      },
+      "mobile": {
+        "javaScript": [
+          "React Native",
+          "Expo"
+        ],
+        "dart": [
+          "Flutter"
+        ]
+      },
+      "desktop": {
+        "java": [
+          "JavaFX",
+          "Java Swing"
+        ],
+        "csharp": [
+          "WPF",
+          "WinForms"
+        ],
+        "python": [
+          "Tkinter",
+          "PyQt"
+        ],
+        "javascript": [
+          "Electron.js"
+        ],
+        "game": {
+          "javascript": [
+            "Phaser.js",
+            "Babylon.js"
+          ],
+          "csharp": [
+            "Unity"
+          ]
+        }
+      }
+    },
+    "orms": [
+      "Prisma ORM",
+      "TypeORM",
+      "Sequelize",
+      "Mongoose",
+      "Entity Framework",
+      "SqlAlchemy",
+      "Django ORM"
+    ],
+    "tools": [
+      "Git",
+      "Git Flow",
+      "GitHub",
+      "GitLab"
+    ],
+    "cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Digital Ocean",
+      "Heroku",
+      "Vercel"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "SQLite"
+    ],
+    "devops": [
+      "CI/CD",
+      "Terraform",
+      "Ansible",
+      "Jenkins",
+      "GitHub Actions",
+      "GitLab CI",
+      "CircleCI",
+      "Travis CI",
+      "AWS CodePipeline",
+      "Docker",
+      "Kubernetes"
+    ]
+  },
   "projects": [
     {
       "name": "Code Forger",
