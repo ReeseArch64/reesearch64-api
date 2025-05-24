@@ -144,6 +144,56 @@
       "AWS CodePipeline",
       "Docker",
       "Kubernetes"
+    ],
+    "runtimes": [
+      "Node.js",
+      "Deno.js",
+      "Bun.js",
+      ".NET Core"
+    ],
+    "packageManagers": [
+      "npm",
+      "yarn",
+      "pnpm",
+      "nuget",
+      "pip",
+      "composer"
+    ],
+    "testing": [
+      "Jest",
+      "Mocha",
+      "Chai",
+      "Cypress",
+      "Selenium",
+      "JUnit",
+      "NUnit",
+      "Pytest"
+    ],
+    "design": [
+      "Figma"
+    ],
+    "methodologies": [
+      "Agile",
+      "Scrum",
+      "Kanban",
+      "Lean",
+      "Extreme Programming (XP)",
+      "Feature Driven Development (FDD)",
+      "Rapid Application Development (RAD)"
+    ],
+    "versionControl": [
+      "Git",
+      "SVN"
+    ],
+    "architecture": [
+      "Microservices",
+      "Serverless",
+      "Event-Driven",
+      "Monolithic",
+      "Layered Architecture",
+      "Domain-Driven Design (DDD)",
+      "CQRS (Command Query Responsibility Segregation)",
+      "Event Sourcing"
     ]
   },
   "projects": [],
