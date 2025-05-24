@@ -1,0 +1,163 @@
+{
+  "avatar": "https://avatars.githubusercontent.com/u/195439767?v=4",
+  "person": {
+    "name": "Alan Guerra",
+    "about": "I am a Senior FullStack Developer with 9 years of experience in Web and Artificial Intelligence, focusing on scalable solutions, performance, and accessibility. I have expertise in .NET, JavaScript, and TypeScript, working on large-scale projects including systems for the aviation sector and volunteer initiatives in various countries. Currently, I am a Software Engineer and owner of Asa Inovações, providing services for sectors such as Education, Automotive, Aeronautics, and Healthcare. In my free time, I enjoy gaming, reading, watching anime, and creating online content.",
+    "role": "Software Engineer",
+    "level": "Senior",
+    "location": "Goiás, Brazil"
+  },
+  "education": [
+    {
+      "institution": "Universidade Cruzeiro do Sul",
+      "course": "Bachelor's Degree in Computer Science",
+      "startDate": "2022-01",
+      "endDate": "2024-12",
+      "description": "When transitioning to in-person education, the subjects explored included Data Structures, Data Modeling, Databases, Compilers, Computer Graphics, Distributed Systems, and Operating Systems. Each of these is crucial for building robust and efficient information systems.\n\nThis change in format also provided the opportunity to meet incredible people and enhance collaboration and efficiency skills through teamwork."
+    },
+    {
+      "institution": "Universidade Uninove - Nove de Julho",
+      "course": "Technical Degree in Systems Analysis and Development",
+      "startDate": "2019-01",
+      "endDate": "2021-12",
+      "description": "Extensive experience in key areas, including website and mobile application development using technologies like React Native, as well as proficiency in languages such as C, JavaScript, and Java. Strong skills in programming logic, flowchart creation, and Ajax implementation. Proficient in web development, object-oriented programming, and entrepreneurship, with advanced knowledge of algorithms using Python."
+    }
+  ],
+  "techs": {
+    "langs": [
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "SQL",
+      "NoSQL"
+    ],
+    "frameworks": {
+      "backend": {
+        "csharp": [
+          ".NET",
+          ".NET Core"
+        ],
+        "node": [
+          "Express.js",
+          "Fastify",
+          "Nest.js",
+          "Adonis.js"
+        ],
+        "python": [
+          "Flask",
+          "Django",
+          "FastAPI"
+        ]
+      },
+      "frontend": {
+        "javaScript": [
+          "React.js",
+          "Next.js",
+          "Vite.js",
+          "Angular"
+        ],
+        "css": [
+          "Tailwind CSS",
+          "Shadcn",
+          "Styled Components",
+          "Sass",
+          "Bootstrap",
+          "Material UI"
+        ]
+      },
+      "mobile": {
+        "javaScript": [
+          "React Native",
+          "Expo"
+        ],
+        "dart": [
+          "Flutter"
+        ]
+      },
+      "desktop": {
+        "java": [
+          "JavaFX",
+          "Java Swing"
+        ],
+        "csharp": [
+          "WPF",
+          "WinForms"
+        ],
+        "python": [
+          "Tkinter",
+          "PyQt"
+        ],
+        "javascript": [
+          "Electron.js"
+        ],
+        "game": {
+          "javascript": [
+            "Phaser.js",
+            "Babylon.js"
+          ],
+          "csharp": [
+            "Unity"
+          ]
+        }
+      }
+    },
+    "orms": [
+      "Prisma ORM",
+      "TypeORM",
+      "Sequelize",
+      "Mongoose",
+      "Entity Framework",
+      "SqlAlchemy",
+      "Django ORM"
+    ],
+    "tools": [
+      "Git",
+      "Git Flow",
+      "GitHub",
+      "GitLab"
+    ],
+    "cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Digital Ocean",
+      "Heroku",
+      "Vercel"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "SQLite"
+    ],
+    "devops": [
+      "CI/CD",
+      "Terraform",
+      "Ansible",
+      "Jenkins",
+      "GitHub Actions",
+      "GitLab CI",
+      "CircleCI",
+      "Travis CI",
+      "AWS CodePipeline",
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  "projects": [],
+  "contact": {
+    "email": "alanguerra@asainovacoes.com",
+    "phone": "+55 (62) 981432397"
+  },
+  "socialMedia": {
+    "linkedin": "https://www.linkedin.com/in/reesearch64/",
+    "github": "https://github.com/ReeseArch64",
+    "instagram": "https://www.instagram.com/reesearch64",
+    "twitter": "https://twitter.com/reesearch64",
+    "facebook": "https://www.facebook.com/reesearch64",
+    "youtube": "https://www.youtube.com/@reesearch64",
+    "tiktok": "https://www.tiktok.com/@reesearch64"
+  }
+}
