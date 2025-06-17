@@ -1,61 +1,69 @@
 {
-  "avatar": "https://avatars.githubusercontent.com/u/195439767?v=4",
-  "person": {
-    "name": "Alan Guerra",
-    "about": "Sou Desenvolvedor FullStack Sênior com 9 anos de experiência em Web e Inteligência Artificial, com foco em soluções escaláveis, desempenho e acessibilidade. Possuo experiência com .NET, JavaScript e TypeScript, atuando em projetos de grande porte, incluindo sistemas para o setor de aviação e iniciativas de voluntariado em diversos países. Atualmente, sou Engenheiro de Software e proprietário da Asa Inovações, prestando serviços para setores como Educação, Automotivo, Aeronáutica e Saúde. No meu tempo livre, gosto de jogar, ler, assistir animes e criar conteúdo online.",
-    "role": "Engenheiro de Software",
-    "level": "Sênior",
-    "location": "Goiás, Brasil"
-  },
-  "education": [
-    {
-      "institution": "Universidade Cruzeiro do Sul",
-      "course": "Bacharelado em Ciência da Computação",
-      "startDate": "2022-01",
-      "endDate": "2024-12",
-      "description": "Ao fazer a transição para o ensino presencial, as disciplinas exploradas incluíram Estrutura de Dados, Modelagem de Dados, Bancos de Dados, Compiladores, Computação Gráfica, Sistemas Distribuídos e Sistemas Operacionais. Cada uma delas é crucial para construir sistemas de informação robustos e eficientes.\n\nEssa mudança de formato também proporcionou a oportunidade de conhecer pessoas incríveis e aprimorar habilidades de colaboração e eficiência por meio do trabalho em equipe."
+  "api": {
+    "avatar": "https://avatars.githubusercontent.com/u/195439767?v=4",
+    "person": {
+      "name": "Alan Guerra",
+      "about": "Desenvolvedor FullStack Sênior com nove anos de experiência em desenvolvimento web e inteligência artificial. Especializado(a) na criação de soluções escaláveis, com foco em desempenho e acessibilidade. Proficiência em .NET, JavaScript e TypeScript, com atuação em projetos de grande porte, incluindo sistemas para o setor de aviação e iniciativas globais. Atualmente, atua como Engenheiro(a) de Software e proprietário(a) da Asa Inovações, prestando serviços para os setores de Educação, Automotivo, Aeronáutico e Saúde.",
+      "role": "Engenheiro de Software",
+      "level": "Sênior",
+      "location": "Goiás, Brasil",
+      "languages": [
+        "Inglês",
+        "Português",
+        "Espanhol"
+      ]
     },
-    {
-      "institution": "Universidade Uninove - Nove de Julho",
-      "course": "Técnico Análise e Desenvolvimento de Sistemas",
-      "startDate": "2019-01",
-      "endDate": "2021-12",
-      "description": "Ampla experiência em diversas áreas-chave, incluindo o desenvolvimento de websites e aplicações móveis utilizando tecnologias como React Native, bem como proficiência em linguagens como C, JavaScript e Java. Sólidas habilidades em lógica de programação, criação de fluxogramas e implementação de Ajax. Proficiente em desenvolvimento web, programação orientada a objetos e empreendedorismo, com conhecimento avançado de algoritmos utilizando Python."
-    }
-  ],
-  "techs": {
-    "langs": [
-      "C#",
-      "JavaScript",
-      "TypeScript",
-      "Python",
-      "SQL",
-      "NoSQL"
-    ],
-    "frameworks": {
-      "backend": {
-        "csharp": [
-          ".NET",
-          ".NET Core"
-        ],
-        "node": [
+    "contacts": {
+      "email": "contact@reesearch64.tech",
+      "whatsapp": "5562981432397",
+      "socialMedia": {
+        "linkedin": "https://www.linkedin.com/in/reesearch64",
+        "github": "https://github.com/ReeseArch64",
+        "instagram": "https://www.instagram.com/reesearch64",
+        "twitter": "https://twitter.com/reesearch64",
+        "facebook": "https://www.facebook.com/reesearch64",
+        "youtube": "https://www.youtube.com/@reesearch64",
+        "tiktok": "https://www.tiktok.com/@reesearch64"
+      }
+    },
+    "techs": {
+      "languages": [
+        "C#",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "SQL",
+        "NoSQL",
+        "Java",
+        "PHP"
+      ],
+      "frameworks": {
+        "backend": [
+          "ASP.NET Core",
+          "ASP.NET",
+          ".NET Framework",
           "Express.js",
-          "Fastify",
+          "Fastify.js",
           "Nest.js",
-          "Adonis.js"
-        ],
-        "python": [
+          "Adonis.js",
           "Flask",
           "Django",
-          "FastAPI"
-        ]
-      },
-      "frontend": {
-        "javaScript": [
+          "FastAPI",
+          "Spring Boot",
+          "Laravel",
+          "CodeIgniter"
+        ],
+        "frontend": [
+          "Blazor",
           "React.js",
           "Next.js",
           "Vite.js",
           "Angular"
+        ],
+        "mobile": [
+          "React Native",
+          "Expo",
+          "Flutter"
         ],
         "css": [
           "Tailwind CSS",
@@ -64,150 +72,120 @@
           "Sass",
           "Bootstrap",
           "Material UI"
-        ]
-      },
-      "mobile": {
-        "javaScript": [
-          "React Native",
-          "Expo"
         ],
-        "dart": [
-          "Flutter"
-        ]
-      },
-      "desktop": {
-        "java": [
+        "desktop": [
           "JavaFX",
-          "Java Swing"
-        ],
-        "csharp": [
+          "Java Swing",
           "WPF",
-          "WinForms"
-        ],
-        "python": [
+          "WinForms",
           "Tkinter",
-          "PyQt"
+          "PyQt",
+          "Electron.js",
+          "Tauri"
         ],
-        "javascript": [
-          "Electron.js"
-        ],
-        "game": {
-          "javascript": [
-            "Phaser.js",
-            "Babylon.js"
-          ],
-          "csharp": [
-            "Unity"
-          ]
-        }
-      }
+        "game": [
+          "Phaser.js",
+          "Babylon.js",
+          "Unity"
+        ]
+      },
+      "runtimes": [
+        ".NET",
+        "Node.js",
+        "Deno",
+        "Bun",
+        "JVM"
+      ],
+      "orms": [
+        "Prisma ORM",
+        "TypeORM",
+        "Sequelize",
+        "Mongoose",
+        "Entity Framework",
+        "SQLAlchemy",
+        "Django ORM"
+      ],
+      "tools": [
+        "Git",
+        "Git Flow",
+        "GitHub",
+        "GitLab",
+        "Bitbucket"
+      ],
+      "cloud": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "DigitalOcean",
+        "Heroku",
+        "Vercel",
+        "AWS CLI",
+        "AWS SES",
+        "AWS S3"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "SQLite"
+      ],
+      "devops": [
+        "CI/CD",
+        "Terraform",
+        "Ansible",
+        "Jenkins",
+        "GitHub Actions",
+        "GitLab CI",
+        "CircleCI",
+        "Travis CI",
+        "AWS CodePipeline",
+        "Docker",
+        "Kubernetes"
+      ],
+      "packageManagers": [
+        "npm",
+        "yarn",
+        "pnpm",
+        "NuGet",
+        "pip",
+        "Composer"
+      ],
+      "testing": [
+        "Jest",
+        "Mocha",
+        "Chai",
+        "Cypress",
+        "Selenium",
+        "JUnit",
+        "NUnit",
+        "Pytest",
+        "Postman",
+        "Insomnia"
+      ],
+      "design": [
+        "Figma"
+      ],
+      "methodologies": [
+        "Agile",
+        "Scrum",
+        "Kanban",
+        "DDD"
+      ],
+      "versionControl": [
+        "Git",
+        "TortoiseSVN"
+      ],
+      "architecture": [
+        "Microsserviços",
+        "Serverless",
+        "Event-Driven",
+        "Monolítico",
+        "Domain-Driven Design (DDD)",
+        "CQRS (Command Query Responsibility Segregation)",
+        "Event Sourcing"
+      ]
     },
-    "orms": [
-      "Prisma ORM",
-      "TypeORM",
-      "Sequelize",
-      "Mongoose",
-      "Entity Framework",
-      "SqlAlchemy",
-      "Django ORM"
-    ],
-    "tools": [
-      "Git",
-      "Git Flow",
-      "GitHub",
-      "GitLab"
-    ],
-    "cloud": [
-      "AWS",
-      "Azure",
-      "Google Cloud",
-      "Digital Ocean",
-      "Heroku",
-      "Vercel"
-    ],
-    "databases": [
-      "PostgreSQL",
-      "MySQL",
-      "MongoDB",
-      "Redis",
-      "SQLite"
-    ],
-    "devops": [
-      "CI/CD",
-      "Terraform",
-      "Ansible",
-      "Jenkins",
-      "GitHub Actions",
-      "GitLab CI",
-      "CircleCI",
-      "Travis CI",
-      "AWS CodePipeline",
-      "Docker",
-      "Kubernetes"
-    ],
-    "runtimes": [
-      "Node.js",
-      "Deno.js",
-      "Bun.js",
-      ".NET Core"
-    ],
-    "packageManagers": [
-      "npm",
-      "yarn",
-      "pnpm",
-      "nuget",
-      "pip",
-      "composer"
-    ],
-    "testing": [
-      "Jest",
-      "Mocha",
-      "Chai",
-      "Cypress",
-      "Selenium",
-      "JUnit",
-      "NUnit",
-      "Pytest"
-    ],
-    "design": [
-      "Figma"
-    ],
-    "methodologies": [
-      "Agile",
-      "Scrum",
-      "Kanban",
-      "Lean",
-      "Extreme Programming (XP)",
-      "Feature Driven Development (FDD)",
-      "Rapid Application Development (RAD)"
-    ],
-    "versionControl": [
-      "Git",
-      "SVN"
-    ],
-    "architecture": [
-      "Microservices",
-      "Serverless",
-      "Event-Driven",
-      "Monolithic",
-      "Layered Architecture",
-      "Domain-Driven Design (DDD)",
-      "CQRS (Command Query Responsibility Segregation)",
-      "Event Sourcing"
-    ]
-  },
-  "projects": [],
-  "contact": {
-    "email": "alanguerra@asainovacoes.com",
-    "phone": "+55 (62) 981432397"
-  },
-  "socialMedia": {
-    "linkedin": "https://www.linkedin.com/in/reesearch64/",
-    "github": "https://github.com/ReeseArch64",
-    "instagram": "https://www.instagram.com/reesearch64",
-    "twitter": "https://twitter.com/reesearch64",
-    "facebook": "https://www.facebook.com/reesearch64",
-    "youtube": "https://www.youtube.com/@reesearch64",
-    "tiktok": "https://www.tiktok.com/@reesearch64"
+    "projects": []
   }
 }
