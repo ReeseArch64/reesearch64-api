@@ -1,6 +1,4 @@
-{
-  "api": {
-    "avatar": "https://avatars.githubusercontent.com/u/195439767?v=4",
+"avatar": "https://avatars.githubusercontent.com/u/195439767?v=4",
     "person": {
       "name": "Alan Guerra",
       "about": "Desenvolvedor FullStack Sênior com nove anos de experiência em desenvolvimento web e inteligência artificial. Especializado(a) na criação de soluções escaláveis, com foco em desempenho e acessibilidade. Proficiência em .NET, JavaScript e TypeScript, com atuação em projetos de grande porte, incluindo sistemas para o setor de aviação e iniciativas globais. Atualmente, atua como Engenheiro(a) de Software e proprietário(a) da Asa Inovações, prestando serviços para os setores de Educação, Automotivo, Aeronáutico e Saúde.",
@@ -187,5 +185,3 @@
       ]
     },
     "projects": []
-  }
-}
