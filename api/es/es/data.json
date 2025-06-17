@@ -1,0 +1,189 @@
+{
+  "avatar": "https://avatars.githubusercontent.com/u/195439767?v=4",
+  "person": {
+    "name": "Alan Guerra",
+    "about": "Desarrollador FullStack Senior con nueve años de experiencia en desarrollo web e inteligencia artificial. Especializado en la creación de soluciones escalables, con enfoque en rendimiento y accesibilidad. Dominio de .NET, JavaScript y TypeScript, con participación en proyectos de gran escala, incluyendo sistemas para el sector de aviación e iniciativas globales. Actualmente trabaja como Ingeniero de Software y propietario de Asa Inovações, brindando servicios a los sectores de Educación, Automotriz, Aeroespacial y Salud.",
+    "role": "Ingeniero de Software",
+    "level": "Senior",
+    "location": "Goiás, Brasil",
+    "languages": [
+      "Inglés",
+      "Portugués",
+      "Español"
+    ]
+  },
+  "contacts": {
+    "email": "contact@reesearch64.tech",
+    "whatsapp": "5562981432397",
+    "socialMedia": {
+      "linkedin": "https://www.linkedin.com/in/reesearch64",
+      "github": "https://github.com/ReeseArch64",
+      "instagram": "https://www.instagram.com/reesearch64",
+      "twitter": "https://twitter.com/reesearch64",
+      "facebook": "https://www.facebook.com/reesearch64",
+      "youtube": "https://www.youtube.com/@reesearch64",
+      "tiktok": "https://www.tiktok.com/@reesearch64"
+    }
+  },
+  "techs": {
+    "languages": [
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "SQL",
+      "NoSQL",
+      "Java",
+      "PHP"
+    ],
+    "frameworks": {
+      "backend": [
+        "ASP.NET Core",
+        "ASP.NET",
+        ".NET Framework",
+        "Express.js",
+        "Fastify.js",
+        "Nest.js",
+        "Adonis.js",
+        "Flask",
+        "Django",
+        "FastAPI",
+        "Spring Boot",
+        "Laravel",
+        "CodeIgniter"
+      ],
+      "frontend": [
+        "Blazor",
+        "React.js",
+        "Next.js",
+        "Vite.js",
+        "Angular"
+      ],
+      "mobile": [
+        "React Native",
+        "Expo",
+        "Flutter"
+      ],
+      "css": [
+        "Tailwind CSS",
+        "Shadcn",
+        "Styled Components",
+        "Sass",
+        "Bootstrap",
+        "Material UI"
+      ],
+      "desktop": [
+        "JavaFX",
+        "Java Swing",
+        "WPF",
+        "WinForms",
+        "Tkinter",
+        "PyQt",
+        "Electron.js",
+        "Tauri"
+      ],
+      "game": [
+        "Phaser.js",
+        "Babylon.js",
+        "Unity"
+      ]
+    },
+    "runtimes": [
+      ".NET",
+      "Node.js",
+      "Deno",
+      "Bun",
+      "JVM"
+    ],
+    "orms": [
+      "Prisma ORM",
+      "TypeORM",
+      "Sequelize",
+      "Mongoose",
+      "Entity Framework",
+      "SQLAlchemy",
+      "Django ORM"
+    ],
+    "tools": [
+      "Git",
+      "Git Flow",
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+    ],
+    "cloud": [
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "DigitalOcean",
+      "Heroku",
+      "Vercel",
+      "AWS CLI",
+      "AWS SES",
+      "AWS S3"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "SQLite"
+    ],
+    "devops": [
+      "CI/CD",
+      "Terraform",
+      "Ansible",
+      "Jenkins",
+      "GitHub Actions",
+      "GitLab CI",
+      "CircleCI",
+      "Travis CI",
+      "AWS CodePipeline",
+      "Docker",
+      "Kubernetes"
+    ],
+    "packageManagers": [
+      "npm",
+      "yarn",
+      "pnpm",
+      "NuGet",
+      "pip",
+      "Composer"
+    ],
+    "testing": [
+      "Jest",
+      "Mocha",
+      "Chai",
+      "Cypress",
+      "Selenium",
+      "JUnit",
+      "NUnit",
+      "Pytest",
+      "Postman",
+      "Insomnia"
+    ],
+    "design": [
+      "Figma"
+    ],
+    "methodologies": [
+      "Ágil",
+      "Scrum",
+      "Kanban",
+      "DDD"
+    ],
+    "versionControl": [
+      "Git",
+      "TortoiseSVN"
+    ],
+    "architecture": [
+      "Microservicios",
+      "Serverless",
+      "Event-Driven",
+      "Monolítico",
+      "Domain-Driven Design (DDD)",
+      "CQRS (Separación de Consulta y Comando)",
+      "Event Sourcing"
+    ]
+  },
+  "projects": []
+}
