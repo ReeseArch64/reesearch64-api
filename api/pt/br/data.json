@@ -2,7 +2,7 @@
   "avatar": "https://avatars.githubusercontent.com/u/195439767?v=4",
   "person": {
     "name": "Alan Guerra",
-    "about": "Desenvolvedor FullStack Sênior com nove anos de experiência em desenvolvimento web e inteligência artificial. Especializado(a) na criação de soluções escaláveis, com foco em desempenho e acessibilidade. Proficiência em .NET, JavaScript e TypeScript, com atuação em projetos de grande porte, incluindo sistemas para o setor de aviação e iniciativas globais. Atualmente, atua como Engenheiro(a) de Software e proprietário(a) da Asa Inovações, prestando serviços para os setores de Educação, Automotivo, Aeronáutico e Saúde.",
+    "about": "Desenvolvedor com foco em backend, especializado na criação de sistemas de alta performance e escalabilidade, utilizando .NET, Java, JavaScript e TypeScript. Possuo experiência em projetos complexos, desde o setor de aviação até iniciativas globais de impacto social, sempre com foco na acessibilidade das soluções.",
     "role": "Engenheiro de Software",
     "level": "Sênior",
     "location": "Goiás, Brasil",
@@ -14,7 +14,7 @@
   },
   "contacts": {
     "email": "contact@reesearch64.tech",
-    "whatsapp": "5562981432397",
+    "whatsapp": "5562995268587",
     "socialMedia": {
       "linkedin": "https://www.linkedin.com/in/reesearch64",
       "github": "https://github.com/ReeseArch64",
@@ -25,2117 +25,1958 @@
       "tiktok": "https://www.tiktok.com/@reesearch64"
     }
   },
-  "techs": {
-    "languages": [
-      "C#",
-      "JavaScript",
-      "TypeScript",
-      "Python",
-      "SQL",
-      "NoSQL",
-      "Java",
-      "PHP"
-    ],
-    "frameworks": {
-      "backend": [
-        "ASP.NET Core",
-        "ASP.NET",
-        ".NET Framework",
-        "Express.js",
-        "Fastify.js",
-        "Nest.js",
-        "Adonis.js",
-        "Flask",
-        "Django",
-        "FastAPI",
+  
+  "projects": [
+    {
+      "name": "Dashboard de Análise de Sentimentos em Tweets",
+      "description": "Consome API de tweets simulados e analisa sentimento com visualização gráfica",
+      "image": "/project.png",
+      "type": "FRONTEND",
+      "categories": [
+        "DASHBOARD"
+      ],
+      "technologies": [
+        "React",
+        "Chart.js",
+        "API"
+      ],
+      "repositoryCode": "https://github.com/user/sentiment-analysis",
+      "demoLink": "https://sentiment-analysis-demo.com"
+    },
+    {
+      "name": "E-commerce de Moda",
+      "description": "Plataforma de e-commerce para venda de roupas e acessórios",
+      "image": "/ecommerce.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "ECOMMERCE"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS"
+      ],
+      "repositoryCode": "https://github.com/user/fashion-ecommerce",
+      "demoLink": "https://fashion-shop-demo.com"
+    },
+    {
+      "name": "Sistema de Agendamento Médico",
+      "description": "Plataforma para agendamento de consultas médicas online",
+      "image": "/healthcare.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "Angular",
         "Spring Boot",
-        "Laravel",
-        "CodeIgniter"
+        "PostgreSQL"
       ],
-      "frontend": [
-        "Blazor",
-        "React.js",
-        "Next.js",
-        "Vite.js",
-        "Angular"
+      "repositoryCode": "https://github.com/user/medical-scheduling",
+      "demoLink": "https://medical-scheduling-demo.com"
+    },
+    {
+      "name": "API de Pagamentos",
+      "description": "API RESTful para processamento de pagamentos com múltiplos gateways",
+      "image": "/api.png",
+      "type": "API",
+      "categories": [
+        "FINANCE"
       ],
-      "mobile": [
+      "technologies": [
+        "Nest.js",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "repositoryCode": "https://github.com/user/payment-api",
+      "demoLink": "https://payment-api-docs.com"
+    },
+    {
+      "name": "App de Tarefas Mobile",
+      "description": "Aplicativo mobile para gerenciamento de tarefas pessoais",
+      "image": "/todoapp.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
         "React Native",
         "Expo",
-        "Flutter"
+        "Firebase"
       ],
-      "css": [
-        "Tailwind CSS",
-        "Shadcn",
-        "Styled Components",
-        "Sass",
-        "Bootstrap",
-        "Material UI"
-      ],
-      "desktop": [
-        "JavaFX",
-        "Java Swing",
-        "WPF",
-        "WinForms",
-        "Tkinter",
-        "PyQt",
-        "Electron.js",
-        "Tauri"
-      ],
-      "game": [
-        "Phaser.js",
-        "Babylon.js",
-        "Unity"
-      ]
+      "repositoryCode": "https://github.com/user/todo-mobile",
+      "demoLink": "https://expo.io/todo-app"
     },
-    "runtimes": [
-      ".NET",
-      "Node.js",
-      "Deno",
-      "Bun",
-      "JVM"
-    ],
-    "orms": [
-      "Prisma ORM",
-      "TypeORM",
-      "Sequelize",
-      "Mongoose",
-      "Entity Framework",
-      "SQLAlchemy",
-      "Django ORM"
-    ],
-    "tools": [
-      "Git",
-      "Git Flow",
-      "GitHub",
-      "GitLab",
-      "Bitbucket"
-    ],
-    "cloud": [
-      "AWS",
-      "Azure",
-      "Google Cloud",
-      "DigitalOcean",
-      "Heroku",
-      "Vercel",
-      "AWS CLI",
-      "AWS SES",
-      "AWS S3"
-    ],
-    "databases": [
-      "PostgreSQL",
-      "MySQL",
-      "MongoDB",
-      "Redis",
-      "SQLite"
-    ],
-    "devops": [
-      "CI/CD",
-      "Terraform",
-      "Ansible",
-      "Jenkins",
-      "GitHub Actions",
-      "GitLab CI",
-      "CircleCI",
-      "Travis CI",
-      "AWS CodePipeline",
-      "Docker",
-      "Kubernetes"
-    ],
-    "packageManagers": [
-      "npm",
-      "yarn",
-      "pnpm",
-      "NuGet",
-      "pip",
-      "Composer"
-    ],
-    "testing": [
-      "Jest",
-      "Mocha",
-      "Chai",
-      "Cypress",
-      "Selenium",
-      "JUnit",
-      "NUnit",
-      "Pytest",
-      "Postman",
-      "Insomnia"
-    ],
-    "design": [
-      "Figma"
-    ],
-    "methodologies": [
-      "Agile",
-      "Scrum",
-      "Kanban",
-      "DDD"
-    ],
-    "versionControl": [
-      "Git",
-      "TortoiseSVN"
-    ],
-    "architecture": [
-      "Microsserviços",
-      "Serverless",
-      "Event-Driven",
-      "Monolítico",
-      "Domain-Driven Design (DDD)",
-      "CQRS (Command Query Responsibility Segregation)",
-      "Event Sourcing"
-    ]
-  },
-  "projects": [
-  {
-    "name": "Dashboard de Análise de Sentimentos em Tweets",
-    "description": "Consome API de tweets simulados e analisa sentimento com visualização gráfica",
-    "image": "/project.png",
-    "type": "FRONTEND",
-    "categories": [
-      "DASHBOARD"
-    ],
-    "technologies": [
-      "React",
-      "Chart.js",
-      "API"
-    ],
-    "repositoryCode": "https://github.com/user/sentiment-analysis",
-    "demoLink": "https://sentiment-analysis-demo.com"
-  },
-  {
-    "name": "E-commerce de Moda",
-    "description": "Plataforma de e-commerce para venda de roupas e acessórios",
-    "image": "/ecommerce.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "ECOMMERCE"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Tailwind CSS"
-    ],
-    "repositoryCode": "https://github.com/user/fashion-ecommerce",
-    "demoLink": "https://fashion-shop-demo.com"
-  },
-  {
-    "name": "Sistema de Agendamento Médico",
-    "description": "Plataforma para agendamento de consultas médicas online",
-    "image": "/healthcare.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "Angular",
-      "Spring Boot",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/medical-scheduling",
-    "demoLink": "https://medical-scheduling-demo.com"
-  },
-  {
-    "name": "API de Pagamentos",
-    "description": "API RESTful para processamento de pagamentos com múltiplos gateways",
-    "image": "/api.png",
-    "type": "API",
-    "categories": [
-      "FINANCE"
-    ],
-    "technologies": [
-      "Nest.js",
-      "PostgreSQL",
-      "Redis"
-    ],
-    "repositoryCode": "https://github.com/user/payment-api",
-    "demoLink": "https://payment-api-docs.com"
-  },
-  {
-    "name": "App de Tarefas Mobile",
-    "description": "Aplicativo mobile para gerenciamento de tarefas pessoais",
-    "image": "/todoapp.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React Native",
-      "Expo",
-      "Firebase"
-    ],
-    "repositoryCode": "https://github.com/user/todo-mobile",
-    "demoLink": "https://expo.io/todo-app"
-  },
-  {
-    "name": "Plataforma de Cursos Online",
-    "description": "Sistema de gerenciamento e distribuição de cursos EAD",
-    "image": "/elearning.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "Next.js",
-      "Django",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/elearning-platform",
-    "demoLink": "https://elearning-demo.com"
-  },
-  {
-    "name": "Ferramenta CLI para DevOps",
-    "description": "CLI para automação de tarefas de deployment e monitoramento",
-    "image": "/cli.png",
-    "type": "CLI",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Python",
-      "Docker",
-      "AWS CLI"
-    ],
-    "repositoryCode": "https://github.com/user/devops-cli",
-    "demoLink": null
-  },
-  {
-    "name": "Painel Admin para CRM",
-    "description": "Painel administrativo para gerenciamento de clientes e vendas",
-    "image": "/admin.png",
-    "type": "FRONTEND",
-    "categories": [
-      "ADMIN_PANEL",
-      "CRM"
-    ],
-    "technologies": [
-      "React",
-      "Material UI",
-      "Chart.js"
-    ],
-    "repositoryCode": "https://github.com/user/admin-crm",
-    "demoLink": "https://admin-crm-demo.com"
-  },
-  {
-    "name": "Jogo 2D em JavaScript",
-    "description": "Jogo de plataforma 2D desenvolvido com Phaser.js",
-    "image": "/game.png",
-    "type": "FRONTEND",
-    "categories": [
-      "GAME"
-    ],
-    "technologies": [
-      "Phaser.js",
-      "TypeScript"
-    ],
-    "repositoryCode": "https://github.com/user/2d-game",
-    "demoLink": "https://2d-game-demo.com"
-  },
-  {
-    "name": "Sistema de Chat em Tempo Real",
-    "description": "Aplicação de chat com WebSockets e salas privadas",
-    "image": "/chat.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "CHAT"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "Socket.io",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/realtime-chat",
-    "demoLink": "https://chat-demo.com"
-  },
-  {
-    "name": "Analisador de Código Estático",
-    "description": "Ferramenta para análise estática de código JavaScript/TypeScript",
-    "image": "/tool.png",
-    "type": "LIBRARY",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "TypeScript",
-      "Babel"
-    ],
-    "repositoryCode": "https://github.com/user/code-analyzer",
-    "demoLink": null
-  },
-  {
-    "name": "App de Finanças Pessoais",
-    "description": "Aplicativo para controle de gastos e orçamento pessoal",
-    "image": "/finance.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "FINANCE"
-    ],
-    "technologies": [
-      "Flutter",
-      "Firebase"
-    ],
-    "repositoryCode": "https://github.com/user/personal-finance",
-    "demoLink": "https://play.google.com/finance-app"
-  },
-  {
-    "name": "Sistema de Recomendação de Filmes",
-    "description": "API que recomenda filmes baseado no histórico do usuário",
-    "image": "/recommendation.png",
-    "type": "BACKEND",
-    "categories": [
-      "ENTERTAINMENT"
-    ],
-    "technologies": [
-      "Python",
-      "FastAPI",
-      "Redis"
-    ],
-    "repositoryCode": "https://github.com/user/movie-recommendation",
-    "demoLink": null
-  },
-  {
-    "name": "Editor de Texto Markdown",
-    "description": "Editor de texto com suporte a Markdown e preview em tempo real",
-    "image": "/editor.png",
-    "type": "DESKTOP",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Electron.js",
-      "React"
-    ],
-    "repositoryCode": "https://github.com/user/markdown-editor",
-    "demoLink": "https://markdown-editor-download.com"
-  },
-  {
-    "name": "Plataforma de Blog Pessoal",
-    "description": "Sistema de blog com CMS integrado",
-    "image": "/blog.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "BLOG"
-    ],
-    "technologies": [
-      "Next.js",
-      "Strapi",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/personal-blog",
-    "demoLink": "https://my-blog-demo.com"
-  },
-  {
-    "name": "API de Autenticação JWT",
-    "description": "Microsserviço de autenticação com JWT e refresh tokens",
-    "image": "/auth.png",
-    "type": "BACKEND",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Nest.js",
-      "Redis",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/auth-service",
-    "demoLink": null
-  },
-  {
-    "name": "Visualizador 3D de Modelos",
-    "description": "Aplicação web para visualização de modelos 3D",
-    "image": "/3dviewer.png",
-    "type": "FRONTEND",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Babylon.js",
-      "TypeScript"
-    ],
-    "repositoryCode": "https://github.com/user/3d-viewer",
-    "demoLink": "https://3d-viewer-demo.com"
-  },
-  {
-    "name": "Sistema de Votação Online",
-    "description": "Plataforma para criação e participação em enquetes",
-    "image": "/poll.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/online-voting",
-    "demoLink": "https://vote-demo.com"
-  },
-  {
-    "name": "Conversor de Arquivos",
-    "description": "CLI para conversão entre formatos de arquivo (JSON, CSV, XML)",
-    "image": "/converter.png",
-    "type": "CLI",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Python",
-      "Click"
-    ],
-    "repositoryCode": "https://github.com/user/file-converter",
-    "demoLink": null
-  },
-  {
-    "name": "Dashboard de Métricas AWS",
-    "description": "Visualização de métricas e custos da AWS",
-    "image": "/aws-dashboard.png",
-    "type": "FRONTEND",
-    "categories": [
-      "DASHBOARD"
-    ],
-    "technologies": [
-      "React",
-      "AWS SDK",
-      "Chart.js"
-    ],
-    "repositoryCode": "https://github.com/user/aws-metrics",
-    "demoLink": "https://aws-dashboard-demo.com"
-  },
-  {
-    "name": "App de Receitas Culinárias",
-    "description": "Aplicativo mobile com receitas e modo offline",
-    "image": "/recipes.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Flutter",
-      "SQLite"
-    ],
-    "repositoryCode": "https://github.com/user/recipes-app",
-    "demoLink": "https://play.google.com/recipes-app"
-  },
-  {
-    "name": "Sistema de Tickets de Suporte",
-    "description": "Plataforma para gerenciamento de tickets de atendimento",
-    "image": "/support.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "CRM"
-    ],
-    "technologies": [
-      "Angular",
-      "ASP.NET Core",
-      "SQL Server"
-    ],
-    "repositoryCode": "https://github.com/user/support-tickets",
-    "demoLink": "https://support-system-demo.com"
-  },
-  {
-    "name": "Extrator de Dados Web",
-    "description": "Ferramenta para extração e estruturação de dados de websites",
-    "image": "/scraper.png",
-    "type": "BACKEND",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Python",
-      "Scrapy",
-      "BeautifulSoup"
-    ],
-    "repositoryCode": "https://github.com/user/web-scraper",
-    "demoLink": null
-  },
-  {
-    "name": "Player de Música Desktop",
-    "description": "Aplicativo desktop para reprodução de arquivos de áudio",
-    "image": "/music.png",
-    "type": "DESKTOP",
-    "categories": [
-      "ENTERTAINMENT"
-    ],
-    "technologies": [
-      "Electron.js",
-      "React"
-    ],
-    "repositoryCode": "https://github.com/user/music-player",
-    "demoLink": "https://music-player-download.com"
-  },
-  {
-    "name": "Landing Page Generator",
-    "description": "Gerador automatizado de landing pages com templates",
-    "image": "/lp-generator.png",
-    "type": "FRONTEND",
-    "categories": [
-      "LP"
-    ],
-    "technologies": [
-      "Next.js",
-      "Tailwind CSS"
-    ],
-    "repositoryCode": "https://github.com/user/lp-generator",
-    "demoLink": "https://lp-generator-demo.com"
-  },
-  {
-    "name": "Sistema de Reservas de Hotel",
-    "description": "Plataforma para reservas e gestão hoteleira",
-    "image": "/hotel.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/hotel-booking",
-    "demoLink": "https://hotel-system-demo.com"
-  },
-  {
-    "name": "API de Geolocalização",
-    "description": "Serviço de geocodificação e cálculo de rotas",
-    "image": "/geo.png",
-    "type": "API",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Fastify.js",
-      "PostGIS",
-      "Redis"
-    ],
-    "repositoryCode": "https://github.com/user/geo-api",
-    "demoLink": "https://geo-api-docs.com"
-  },
-  {
-    "name": "App de Monitoramento de Hábitos",
-    "description": "Acompanhamento de hábitos diários com gráficos",
-    "image": "/habits.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React Native",
-      "Expo",
-      "SQLite"
-    ],
-    "repositoryCode": "https://github.com/user/habit-tracker",
-    "demoLink": "https://expo.io/habits-app"
-  },
-  {
-    "name": "Visualizador de Dados CSV",
-    "description": "Ferramenta para visualização e filtragem de arquivos CSV",
-    "image": "/csv.png",
-    "type": "DESKTOP",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Python",
-      "PyQt",
-      "Pandas"
-    ],
-    "repositoryCode": "https://github.com/user/csv-viewer",
-    "demoLink": "https://csv-viewer-download.com"
-  },
-  {
-    "name": "Plataforma de Crowdfunding",
-    "description": "Sistema para financiamento coletivo de projetos",
-    "image": "/crowdfunding.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "Next.js",
-      "Nest.js",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/crowdfunding-platform",
-    "demoLink": "https://crowdfunding-demo.com"
-  },
-  {
-    "name": "CLI para Gerenciamento de Projetos",
-    "description": "Ferramenta de linha de comando para organização de projetos",
-    "image": "/project-cli.png",
-    "type": "CLI",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Node.js",
-      "Commander.js"
-    ],
-    "repositoryCode": "https://github.com/user/project-cli",
-    "demoLink": null
-  },
-  {
-    "name": "Sistema de Biblioteca Digital",
-    "description": "Plataforma para empréstimo e gestão de livros digitais",
-    "image": "/library.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "Angular",
-      "Spring Boot",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/digital-library",
-    "demoLink": "https://library-demo.com"
-  },
-  {
-    "name": "Gerador de QR Code",
-    "description": "Aplicação web para geração e download de QR Codes",
-    "image": "/qrcode.png",
-    "type": "FRONTEND",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React",
-      "QR Code library"
-    ],
-    "repositoryCode": "https://github.com/user/qr-generator",
-    "demoLink": "https://qr-generator-demo.com"
-  },
-  {
-    "name": "Monitor de Servidores",
-    "description": "Dashboard para monitoramento de status de servidores",
-    "image": "/monitor.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "DASHBOARD"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "Socket.io"
-    ],
-    "repositoryCode": "https://github.com/user/server-monitor",
-    "demoLink": "https://server-monitor-demo.com"
-  },
-  {
-    "name": "App de Notas Rápidas",
-    "description": "Aplicativo para criação e organização de notas",
-    "image": "/notes.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Flutter",
-      "Firebase"
-    ],
-    "repositoryCode": "https://github.com/user/notes-app",
-    "demoLink": "https://play.google.com/notes-app"
-  },
-  {
-    "name": "Sistema de Pontos de Fidelidade",
-    "description": "Plataforma para gestão de programas de fidelidade",
-    "image": "/loyalty.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "CRM"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/loyalty-system",
-    "demoLink": "https://loyalty-demo.com"
-  },
-  {
-    "name": "Validador de Formulários",
-    "description": "Biblioteca para validação de formulários frontend",
-    "image": "/validator.png",
-    "type": "LIBRARY",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "TypeScript"
-    ],
-    "repositoryCode": "https://github.com/user/form-validator",
-    "demoLink": "https://www.npmjs.com/package/form-validator"
-  },
-  {
-    "name": "Plataforma de Doações",
-    "description": "Sistema para arrecadação de doações com múltiplos gateways",
-    "image": "/donation.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "Next.js",
-      "Stripe",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/donation-platform",
-    "demoLink": "https://donation-demo.com"
-  },
-  {
-    "name": "App de Previsão do Tempo",
-    "description": "Aplicativo mobile com previsão do tempo local",
-    "image": "/weather.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React Native",
-      "OpenWeather API"
-    ],
-    "repositoryCode": "https://github.com/user/weather-app",
-    "demoLink": "https://expo.io/weather-app"
-  },
-  {
-    "name": "Sistema de Inventário",
-    "description": "Gestão de estoque e inventário com relatórios",
-    "image": "/inventory.png",
-    "type": "DESKTOP",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Java",
-      "JavaFX",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/inventory-system",
-    "demoLink": "https://inventory-download.com"
-  },
-  {
-    "name": "API de Encurtamento de URLs",
-    "description": "Serviço para encurtar URLs com analytics",
-    "image": "/urlshortener.png",
-    "type": "API",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "FastAPI",
-      "Redis",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/url-shortener",
-    "demoLink": "https://url-shortener-docs.com"
-  },
-  {
-    "name": "Plataforma de Eventos",
-    "description": "Sistema para criação e venda de ingressos para eventos",
-    "image": "/events.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/events-platform",
-    "demoLink": "https://events-demo.com"
-  },
-  {
-    "name": "Editor de Imagens Online",
-    "description": "Ferramenta web básica para edição de imagens",
-    "image": "/image-editor.png",
-    "type": "FRONTEND",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React",
-      "Fabric.js"
-    ],
-    "repositoryCode": "https://github.com/user/image-editor",
-    "demoLink": "https://image-editor-demo.com"
-  },
-  {
-    "name": "Sistema de Chamados Técnicos",
-    "description": "Plataforma para abertura e acompanhamento de chamados técnicos",
-    "image": "/tickets.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "CRM"
-    ],
-    "technologies": [
-      "Angular",
-      ".NET Core",
-      "SQL Server"
-    ],
-    "repositoryCode": "https://github.com/user/tech-support",
-    "demoLink": "https://support-demo.com"
-  },
-  {
-    "name": "App de Lista de Compras",
-    "description": "Aplicativo para gerenciar listas de compras compartilhadas",
-    "image": "/shopping.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Flutter",
-      "Firebase"
-    ],
-    "repositoryCode": "https://github.com/user/shopping-list",
-    "demoLink": "https://play.google.com/shopping-app"
-  },
-  {
-    "name": "Dashboard de Redes Sociais",
-    "description": "Agregação e análise de métricas de múltiplas redes sociais",
-    "image": "/social-dashboard.png",
-    "type": "FRONTEND",
-    "categories": [
-      "DASHBOARD",
-      "SOCIAL"
-    ],
-    "technologies": [
-      "React",
-      "Chart.js",
-      "API"
-    ],
-    "repositoryCode": "https://github.com/user/social-dashboard",
-    "demoLink": "https://social-dashboard-demo.com"
-  },
-  {
-    "name": "Sistema de Reservas de Restaurante",
-    "description": "Plataforma para reservas de mesas em restaurantes",
-    "image": "/restaurant.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/restaurant-booking",
-    "demoLink": "https://restaurant-demo.com"
-  },
-  {
-    "name": "API de Conversão de Moedas",
-    "description": "Serviço para conversão de valores entre moedas",
-    "image": "/currency.png",
-    "type": "API",
-    "categories": [
-      "FINANCE"
-    ],
-    "technologies": [
-      "Node.js",
-      "Exchange Rates API",
-      "Redis"
-    ],
-    "repositoryCode": "https://github.com/user/currency-api",
-    "demoLink": "https://currency-api-docs.com"
-  },
-  {
-    "name": "Plataforma de Portfólios",
-    "description": "Sistema para criação e hospedagem de portfólios online",
-    "image": "/portfolio.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "PORTFOLIO"
-    ],
-    "technologies": [
-      "Next.js",
-      "Strapi",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/portfolio-platform",
-    "demoLink": "https://portfolio-demo.com"
-  },
-  {
-    "name": "App de Meditação",
-    "description": "Aplicativo com sessões guiadas de meditação",
-    "image": "/meditation.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "React Native",
-      "Expo"
-    ],
-    "repositoryCode": "https://github.com/user/meditation-app",
-    "demoLink": "https://expo.io/meditation-app"
-  },
-  {
-    "name": "Sistema de Gestão Escolar",
-    "description": "Plataforma para administração de instituições de ensino",
-    "image": "/school.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "Angular",
-      "Spring Boot",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/school-management",
-    "demoLink": "https://school-demo.com"
-  },
-  {
-    "name": "Gerador de Contratos",
-    "description": "Ferramenta para criação de contratos personalizados",
-    "image": "/contract.png",
-    "type": "FRONTEND",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React",
-      "PDFKit"
-    ],
-    "repositoryCode": "https://github.com/user/contract-generator",
-    "demoLink": "https://contract-generator-demo.com"
-  },
-  {
-    "name": "Sistema de Doações de Alimentos",
-    "description": "Plataforma para conectar doadores e instituições beneficentes",
-    "image": "/food-donation.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/food-donation",
-    "demoLink": "https://food-donation-demo.com"
-  },
-  {
-    "name": "App de Localização de Ônibus",
-    "description": "Aplicativo para rastreamento de ônibus urbanos",
-    "image": "/bus.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Flutter",
-      "Google Maps API"
-    ],
-    "repositoryCode": "https://github.com/user/bus-tracker",
-    "demoLink": "https://play.google.com/bus-tracker"
-  },
-  {
-    "name": "Sistema de Gestão de Conteúdo",
-    "description": "CMS personalizado para criação de sites",
-    "image": "/cms.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/custom-cms",
-    "demoLink": "https://cms-demo.com"
-  },
-  {
-    "name": "API de Recomendação de Livros",
-    "description": "Serviço que recomenda livros baseado em preferências",
-    "image": "/book-api.png",
-    "type": "API",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "Python",
-      "FastAPI",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/book-recommendation",
-    "demoLink": "https://book-api-docs.com"
-  },
-  {
-    "name": "Plataforma de Freelancers",
-    "description": "Marketplace para conexão entre freelancers e clientes",
-    "image": "/freelance.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/freelance-platform",
-    "demoLink": "https://freelance-demo.com"
-  },
-  {
-    "name": "App de Treino Fitness",
-    "description": "Aplicativo com rotinas de exercícios e acompanhamento",
-    "image": "/fitness.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "React Native",
-      "Firebase"
-    ],
-    "repositoryCode": "https://github.com/user/fitness-app",
-    "demoLink": "https://expo.io/fitness-app"
-  },
-  {
-    "name": "Sistema de Gestão de Projetos",
-    "description": "Plataforma para organização e acompanhamento de projetos",
-    "image": "/project-management.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Angular",
-      ".NET Core",
-      "SQL Server"
-    ],
-    "repositoryCode": "https://github.com/user/project-management",
-    "demoLink": "https://project-management-demo.com"
-  },
-  {
-    "name": "Visualizador de Dados Meteorológicos",
-    "description": "Dashboard para visualização de dados climáticos",
-    "image": "/weather-dashboard.png",
-    "type": "FRONTEND",
-    "categories": [
-      "DASHBOARD"
-    ],
-    "technologies": [
-      "React",
-      "D3.js",
-      "API"
-    ],
-    "repositoryCode": "https://github.com/user/weather-dashboard",
-    "demoLink": "https://weather-dashboard-demo.com"
-  },
-  {
-    "name": "Sistema de Reservas de Espaços",
-    "description": "Plataforma para reserva de salas e espaços compartilhados",
-    "image": "/space-booking.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/space-booking",
-    "demoLink": "https://space-booking-demo.com"
-  },
-  {
-    "name": "App de Lembretes Diários",
-    "description": "Aplicativo para criação e gestão de lembretes recorrentes",
-    "image": "/reminders.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Flutter",
-      "SQLite"
-    ],
-    "repositoryCode": "https://github.com/user/reminders-app",
-    "demoLink": "https://play.google.com/reminders-app"
-  },
-  {
-    "name": "Plataforma de Tutoria Online",
-    "description": "Sistema para aulas particulares online",
-    "image": "/tutoring.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "Next.js",
-      "Nest.js",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/online-tutoring",
-    "demoLink": "https://tutoring-demo.com"
-  },
-  {
-    "name": "API de Gerenciamento de Tarefas",
-    "description": "Microsserviço para CRUD de tarefas com autenticação",
-    "image": "/tasks-api.png",
-    "type": "API",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Nest.js",
-      "MongoDB",
-      "JWT"
-    ],
-    "repositoryCode": "https://github.com/user/tasks-api",
-    "demoLink": "https://tasks-api-docs.com"
-  },
-  {
-    "name": "Sistema de Doação de Sangue",
-    "description": "Plataforma para cadastro de doadores e agendamento",
-    "image": "/blood-donation.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/blood-donation",
-    "demoLink": "https://blood-donation-demo.com"
-  },
-  {
-    "name": "App de Rastreamento de Encomendas",
-    "description": "Aplicativo para acompanhar status de entregas",
-    "image": "/delivery.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React Native",
-      "Expo",
-      "API"
-    ],
-    "repositoryCode": "https://github.com/user/delivery-tracker",
-    "demoLink": "https://expo.io/delivery-app"
-  },
-  {
-    "name": "Sistema de Gestão de Condomínio",
-    "description": "Plataforma para administração de condomínios residenciais",
-    "image": "/condominium.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Angular",
-      "Spring Boot",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/condominium-system",
-    "demoLink": "https://condominium-demo.com"
-  },
-  {
-    "name": "Visualizador de Dados Financeiros",
-    "description": "Dashboard para análise de dados de mercado financeiro",
-    "image": "/financial-dashboard.png",
-    "type": "FRONTEND",
-    "categories": [
-      "DASHBOARD",
-      "FINANCE"
-    ],
-    "technologies": [
-      "React",
-      "Chart.js",
-      "API"
-    ],
-    "repositoryCode": "https://github.com/user/financial-dashboard",
-    "demoLink": "https://financial-dashboard-demo.com"
-  },
-  {
-    "name": "Plataforma de Aprendizado de Idiomas",
-    "description": "Sistema para prática e ensino de línguas estrangeiras",
-    "image": "/language.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "Next.js",
-      "Django",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/language-learning",
-    "demoLink": "https://language-demo.com"
-  },
-  {
-    "name": "API de Cálculo de Rota",
-    "description": "Serviço para cálculo de rotas e distâncias",
-    "image": "/route.png",
-    "type": "API",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Node.js",
-      "Google Maps API",
-      "Redis"
-    ],
-    "repositoryCode": "https://github.com/user/route-api",
-    "demoLink": "https://route-api-docs.com"
-  },
-  {
-    "name": "Sistema de Gestão de Clínicas",
-    "description": "Plataforma para administração de clínicas médicas",
-    "image": "/clinic.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/clinic-management",
-    "demoLink": "https://clinic-demo.com"
-  },
-  {
-    "name": "App de Diário Pessoal",
-    "description": "Aplicativo para registro de pensamentos e memórias",
-    "image": "/diary.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Flutter",
-      "SQLite"
-    ],
-    "repositoryCode": "https://github.com/user/diary-app",
-    "demoLink": "https://play.google.com/diary-app"
-  },
-  {
-    "name": "Plataforma de Vendas B2B",
-    "description": "Sistema para negociações entre empresas",
-    "image": "/b2b.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "ECOMMERCE"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/b2b-platform",
-    "demoLink": "https://b2b-demo.com"
-  },
-  {
-    "name": "Sistema de Gestão de Frota",
-    "description": "Plataforma para controle de veículos corporativos",
-    "image": "/fleet.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Angular",
-      ".NET Core",
-      "SQL Server"
-    ],
-    "repositoryCode": "https://github.com/user/fleet-management",
-    "demoLink": "https://fleet-demo.com"
-  },
-  {
-    "name": "App de Receitas Fitness",
-    "description": "Aplicativo com receitas saudáveis e planejamento alimentar",
-    "image": "/fit-recipes.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "React Native",
-      "Firebase"
-    ],
-    "repositoryCode": "https://github.com/user/fit-recipes",
-    "demoLink": "https://expo.io/fit-recipes"
-  },
-  {
-    "name": "Plataforma de Doação de Roupas",
-    "description": "Sistema para conectar doadores e instituições de caridade",
-    "image": "/clothes-donation.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "Next.js",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/clothes-donation",
-    "demoLink": "https://clothes-donation-demo.com"
-  },
-  {
-    "name": "API de Gerenciamento de Arquivos",
-    "description": "Serviço para upload, download e organização de arquivos",
-    "image": "/files-api.png",
-    "type": "API",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Node.js",
-      "AWS S3",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/files-api",
-    "demoLink": "https://files-api-docs.com"
-  },
-  {
-    "name": "Sistema de Gestão de Eventos Acadêmicos",
-    "description": "Plataforma para organização de congressos e seminários",
-    "image": "/academic.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/academic-events",
-    "demoLink": "https://academic-demo.com"
-  },
-  {
-    "name": "App de Monitoramento de Sono",
-    "description": "Acompanhamento de padrões de sono e qualidade",
-    "image": "/sleep.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "Flutter",
-      "Health API"
-    ],
-    "repositoryCode": "https://github.com/user/sleep-tracker",
-    "demoLink": "https://play.google.com/sleep-tracker"
-  },
-  {
-    "name": "Plataforma de Crowdsourcing",
-    "description": "Sistema para coleta e análise de dados colaborativos",
-    "image": "/crowdsourcing.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/crowdsourcing-platform",
-    "demoLink": "https://crowdsourcing-demo.com"
-  },
-  {
-    "name": "Sistema de Gestão de Transportes",
-    "description": "Plataforma para logística e controle de frotas",
-    "image": "/transport.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Angular",
-      "Spring Boot",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/transport-management",
-    "demoLink": "https://transport-demo.com"
-  },
-  {
-    "name": "App de Controle Parental",
-    "description": "Aplicativo para monitoramento de atividades online de crianças",
-    "image": "/parental.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React Native",
-      "Firebase"
-    ],
-    "repositoryCode": "https://github.com/user/parental-control",
-    "demoLink": "https://play.google.com/parental-control"
-  },
-  {
-    "name": "Plataforma de Mentoria",
-    "description": "Sistema para conexão entre mentores e aprendizes",
-    "image": "/mentoring.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "Next.js",
-      "Nest.js",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/mentoring-platform",
-    "demoLink": "https://mentoring-demo.com"
-  },
-  {
-    "name": "API de Análise de Texto",
-    "description": "Serviço para processamento de linguagem natural",
-    "image": "/nlp-api.png",
-    "type": "API",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Python",
-      "FastAPI",
-      "NLTK"
-    ],
-    "repositoryCode": "https://github.com/user/nlp-api",
-    "demoLink": "https://nlp-api-docs.com"
-  },
-  {
-    "name": "Sistema de Gestão de Museus",
-    "description": "Plataforma para administração de acervos e visitantes",
-    "image": "/museum.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/museum-management",
-    "demoLink": "https://museum-demo.com"
-  },
-  {
-    "name": "App de Guia Turístico",
-    "description": "Aplicativo com pontos turísticos e rotas personalizadas",
-    "image": "/tourist.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Flutter",
-      "Google Maps API"
-    ],
-    "repositoryCode": "https://github.com/user/tourist-guide",
-    "demoLink": "https://play.google.com/tourist-guide"
-  },
-  {
-    "name": "Plataforma de Doação de Brinquedos",
-    "description": "Sistema para arrecadação de brinquedos em épocas festivas",
-    "image": "/toys.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/toys-donation",
-    "demoLink": "https://toys-donation-demo.com"
-  },
-  {
-    "name": "Sistema de Gestão de Bibliotecas",
-    "description": "Plataforma para controle de acervo e empréstimos",
-    "image": "/library-system.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "Angular",
-      "Spring Boot",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/library-system",
-    "demoLink": "https://library-system-demo.com"
-  },
-  {
-    "name": "App de Controle de Gastos",
-    "description": "Aplicativo para registro e análise de despesas pessoais",
-    "image": "/expenses.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "FINANCE"
-    ],
-    "technologies": [
-      "React Native",
-      "SQLite"
-    ],
-    "repositoryCode": "https://github.com/user/expenses-app",
-    "demoLink": "https://expo.io/expenses-app"
-  },
-  {
-    "name": "Plataforma de Adoção de Animais",
-    "description": "Sistema para conectar animais abandonados e adotantes",
-    "image": "/pets.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/pet-adoption",
-    "demoLink": "https://pet-adoption-demo.com"
-  },
-  {
-    "name": "API de Gerenciamento de Conteúdo",
-    "description": "Serviço headless CMS para criação e distribuição de conteúdo",
-    "image": "/content-api.png",
-    "type": "API",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Node.js",
-      "MongoDB",
-      "Redis"
-    ],
-    "repositoryCode": "https://github.com/user/content-api",
-    "demoLink": "https://content-api-docs.com"
-  },
-  {
-    "name": "Sistema de Gestão de ONGs",
-    "description": "Plataforma para administração de organizações não-governamentais",
-    "image": "/ngo.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "Next.js",
-      "Django",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/ngo-management",
-    "demoLink": "https://ngo-demo.com"
-  },
-  {
-    "name": "App de Acompanhamento de Plantas",
-    "description": "Aplicativo para registro de cuidados com plantas domésticas",
-    "image": "/plants.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Flutter",
-      "Firebase"
-    ],
-    "repositoryCode": "https://github.com/user/plants-app",
-    "demoLink": "https://play.google.com/plants-app"
-  },
-  {
-    "name": "Plataforma de Recrutamento",
-    "description": "Sistema para gestão de processos seletivos",
-    "image": "/recruitment.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Angular",
-      ".NET Core",
-      "SQL Server"
-    ],
-    "repositoryCode": "https://github.com/user/recruitment-platform",
-    "demoLink": "https://recruitment-demo.com"
-  },
-  {
-    "name": "Sistema de Gestão de Igrejas",
-    "description": "Plataforma para administração de comunidades religiosas",
-    "image": "/church.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/church-management",
-    "demoLink": "https://church-demo.com"
-  },
-  {
-    "name": "App de Rastreamento de Hábitos",
-    "description": "Aplicativo para formação e acompanhamento de novos hábitos",
-    "image": "/habits.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "React Native",
-      "SQLite"
-    ],
-    "repositoryCode": "https://github.com/user/habits-tracker",
-    "demoLink": "https://expo.io/habits-tracker"
-  },
-  {
-    "name": "Plataforma de Microblogging",
-    "description": "Sistema simplificado de postagens curtas",
-    "image": "/microblog.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/microblog-platform",
-    "demoLink": "https://microblog-demo.com"
-  },
-  {
-    "name": "API de Gerenciamento de Identidade",
-    "description": "Serviço centralizado de autenticação e autorização",
-    "image": "/identity.png",
-    "type": "API",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Nest.js",
-      "PostgreSQL",
-      "JWT"
-    ],
-    "repositoryCode": "https://github.com/user/identity-api",
-    "demoLink": "https://identity-api-docs.com"
-  },
-  {
-    "name": "Sistema de Gestão de Cooperativas",
-    "description": "Plataforma para administração de cooperativas",
-    "image": "/cooperative.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Angular",
-      "Spring Boot",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/cooperative-system",
-    "demoLink": "https://cooperative-demo.com"
-  },
-  {
-    "name": "App de Controle de Água",
-    "description": "Aplicativo para registro de consumo diário de água",
-    "image": "/water.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "Flutter",
-      "Health API"
-    ],
-    "repositoryCode": "https://github.com/user/water-tracker",
-    "demoLink": "https://play.google.com/water-tracker"
-  },
-  {
-    "name": "Plataforma de Doação de Alimentos para Pets",
-    "description": "Sistema para arrecadação de ração e suprimentos",
-    "image": "/pet-food.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "Next.js",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/pet-food-donation",
-    "demoLink": "https://pet-food-demo.com"
-  },
-  {
-    "name": "Sistema de Gestão de Aluguéis",
-    "description": "Plataforma para administração de imóveis alugados",
-    "image": "/rental.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/rental-system",
-    "demoLink": "https://rental-demo.com"
-  },
-  {
-    "name": "App de Treino de Pronúncia",
-    "description": "Aplicativo para prática de pronúncia em idiomas estrangeiros",
-    "image": "/pronunciation.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "React Native",
-      "Speech API"
-    ],
-    "repositoryCode": "https://github.com/user/pronunciation-app",
-    "demoLink": "https://expo.io/pronunciation-app"
-  },
-  {
-    "name": "Plataforma de Voluntariado",
-    "description": "Sistema para conexão entre voluntários e oportunidades",
-    "image": "/volunteer.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/volunteer-platform",
-    "demoLink": "https://volunteer-demo.com"
-  },
-  {
-    "name": "API de Agendamento",
-    "description": "Serviço para gerenciamento de agendas e disponibilidade",
-    "image": "/scheduling.png",
-    "type": "API",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Node.js",
-      "MongoDB",
-      "Redis"
-    ],
-    "repositoryCode": "https://github.com/user/scheduling-api",
-    "demoLink": "https://scheduling-api-docs.com"
-  },
-  {
-    "name": "Sistema de Gestão de Associações",
-    "description": "Plataforma para administração de associações de bairro",
-    "image": "/association.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Angular",
-      ".NET Core",
-      "SQL Server"
-    ],
-    "repositoryCode": "https://github.com/user/association-system",
-    "demoLink": "https://association-demo.com"
-  },
-  {
-    "name": "App de Rastreamento de Ciclismo",
-    "description": "Aplicativo para registro de rotas e desempenho em ciclismo",
-    "image": "/cycling.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "Flutter",
-      "Google Maps API"
-    ],
-    "repositoryCode": "https://github.com/user/cycling-tracker",
-    "demoLink": "https://play.google.com/cycling-tracker"
-  },
-  {
-    "name": "Plataforma de Troca de Livros",
-    "description": "Sistema para troca de livros entre usuários",
-    "image": "/book-exchange.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "Next.js",
-      "Django",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/book-exchange",
-    "demoLink": "https://book-exchange-demo.com"
-  },
-  {
-    "name": "Sistema de Gestão de Feiras Livres",
-    "description": "Plataforma para administração de feiras e permissionários",
-    "image": "/market.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/market-system",
-    "demoLink": "https://market-demo.com"
-  },
-  {
-    "name": "App de Controle de Medicação",
-    "description": "Aplicativo para lembrete de horários de medicamentos",
-    "image": "/medication.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "React Native",
-      "SQLite"
-    ],
-    "repositoryCode": "https://github.com/user/medication-app",
-    "demoLink": "https://expo.io/medication-app"
-  },
-  {
-    "name": "Plataforma de Apoio a Agricultores",
-    "description": "Sistema para conexão entre agricultores e consumidores",
-    "image": "/farmers.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/farmers-platform",
-    "demoLink": "https://farmers-demo.com"
-  },
-  {
-    "name": "API de Notificações",
-    "description": "Serviço para envio de notificações por múltiplos canais",
-    "image": "/notifications.png",
-    "type": "API",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Node.js",
-      "Firebase",
-      "Redis"
-    ],
-    "repositoryCode": "https://github.com/user/notifications-api",
-    "demoLink": "https://notifications-api-docs.com"
-  },
-  {
-    "name": "Sistema de Gestão de Clubes",
-    "description": "Plataforma para administração de clubes sociais e esportivos",
-    "image": "/club.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Angular",
-      "Spring Boot",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/club-management",
-    "demoLink": "https://club-demo.com"
-  },
-  {
-    "name": "App de Registro de Sonhos",
-    "description": "Aplicativo para registro e análise de sonhos",
-    "image": "/dreams.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Flutter",
-      "Firebase"
-    ],
-    "repositoryCode": "https://github.com/user/dream-journal",
-    "demoLink": "https://play.google.com/dream-journal"
-  },
-  {
-    "name": "Plataforma de Doação de Material Escolar",
-    "description": "Sistema para arrecadação de materiais escolares",
-    "image": "/school-supplies.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "Next.js",
-      "Node.js",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/school-supplies",
-    "demoLink": "https://school-supplies-demo.com"
-  },
-  {
-    "name": "Sistema de Gestão de Parques",
-    "description": "Plataforma para administração de parques urbanos",
-    "image": "/park.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/park-management",
-    "demoLink": "https://park-demo.com"
-  },
-  {
-    "name": "App de Controle de Leitura",
-    "description": "Aplicativo para registro e acompanhamento de livros lidos",
-    "image": "/reading.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "React Native",
-      "SQLite"
-    ],
-    "repositoryCode": "https://github.com/user/reading-tracker",
-    "demoLink": "https://expo.io/reading-tracker"
-  },
-  {
-    "name": "Plataforma de Apoio a Artistas",
-    "description": "Sistema para divulgação e venda de obras artísticas",
-    "image": "/artists.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "React",
-      "Node.js",
-      "MongoDB"
-    ],
-    "repositoryCode": "https://github.com/user/artists-platform",
-    "demoLink": "https://artists-demo.com"
-  },
-  {
-    "name": "API de Gerenciamento de Conteúdo Educacional",
-    "description": "Serviço para organização e distribuição de materiais didáticos",
-    "image": "/education-api.png",
-    "type": "API",
-    "categories": [
-      "EDUCATION"
-    ],
-    "technologies": [
-      "Nest.js",
-      "PostgreSQL",
-      "Redis"
-    ],
-    "repositoryCode": "https://github.com/user/education-api",
-    "demoLink": "https://education-api-docs.com"
-  },
-  {
-    "name": "Sistema de Gestão de Praias",
-    "description": "Plataforma para monitoramento e informações sobre praias",
-    "image": "/beach.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Angular",
-      ".NET Core",
-      "SQL Server"
-    ],
-    "repositoryCode": "https://github.com/user/beach-management",
-    "demoLink": "https://beach-demo.com"
-  },
-  {
-    "name": "App de Registro de Humor",
-    "description": "Aplicativo para registro diário de estado emocional",
-    "image": "/mood.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "HEALTHCARE"
-    ],
-    "technologies": [
-      "Flutter",
-      "Firebase"
-    ],
-    "repositoryCode": "https://github.com/user/mood-tracker",
-    "demoLink": "https://play.google.com/mood-tracker"
-  },
-  {
-    "name": "Plataforma de Doação de Computadores",
-    "description": "Sistema para arrecadação e redistribuição de equipamentos",
-    "image": "/computers.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "SOCIAL"
-    ],
-    "technologies": [
-      "Next.js",
-      "Django",
-      "PostgreSQL"
-    ],
-    "repositoryCode": "https://github.com/user/computers-donation",
-    "demoLink": "https://computers-demo.com"
-  },
-  {
-    "name": "Sistema de Gestão de Hoteis para Pets",
-    "description": "Plataforma para administração de hotéis e creches para animais",
-    "image": "/pet-hotel.png",
-    "type": "FULLSTACK",
-    "categories": [
-      "OTHER"
-    ],
-    "technologies": [
-      "Vue.js",
-      "Laravel",
-      "MySQL"
-    ],
-    "repositoryCode": "https://github.com/user/pet-hotel",
-    "demoLink": "https://pet-hotel-demo.com"
-  },
-  {
-    "name": "App de Controle de Séries",
-    "description": "Aplicativo para acompanhamento de séries assistidas",
-    "image": "/tvshows.png",
-    "type": "MOBILE_NATIVE",
-    "categories": [
-      "ENTERTAINMENT"
-    ],
-    "technologies": [
-      "React Native",
-      "TVMaze API"
-    ],
-    "repositoryCode": "https://github.com/user/tvshows-tracker",
-    "demoLink": "https://expo.io/tvshows-tracker"
-  }
-]
+    {
+      "name": "Plataforma de Cursos Online",
+      "description": "Sistema de gerenciamento e distribuição de cursos EAD",
+      "image": "/elearning.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "Next.js",
+        "Django",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/elearning-platform",
+      "demoLink": "https://elearning-demo.com"
+    },
+    {
+      "name": "Ferramenta CLI para DevOps",
+      "description": "CLI para automação de tarefas de deployment e monitoramento",
+      "image": "/cli.png",
+      "type": "CLI",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Python",
+        "Docker",
+        "AWS CLI"
+      ],
+      "repositoryCode": "https://github.com/user/devops-cli",
+      "demoLink": null
+    },
+    {
+      "name": "Painel Admin para CRM",
+      "description": "Painel administrativo para gerenciamento de clientes e vendas",
+      "image": "/admin.png",
+      "type": "FRONTEND",
+      "categories": [
+        "ADMIN_PANEL",
+        "CRM"
+      ],
+      "technologies": [
+        "React",
+        "Material UI",
+        "Chart.js"
+      ],
+      "repositoryCode": "https://github.com/user/admin-crm",
+      "demoLink": "https://admin-crm-demo.com"
+    },
+    {
+      "name": "Jogo 2D em JavaScript",
+      "description": "Jogo de plataforma 2D desenvolvido com Phaser.js",
+      "image": "/game.png",
+      "type": "FRONTEND",
+      "categories": [
+        "GAME"
+      ],
+      "technologies": [
+        "Phaser.js",
+        "TypeScript"
+      ],
+      "repositoryCode": "https://github.com/user/2d-game",
+      "demoLink": "https://2d-game-demo.com"
+    },
+    {
+      "name": "Sistema de Chat em Tempo Real",
+      "description": "Aplicação de chat com WebSockets e salas privadas",
+      "image": "/chat.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "CHAT"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "Socket.io",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/realtime-chat",
+      "demoLink": "https://chat-demo.com"
+    },
+    {
+      "name": "Analisador de Código Estático",
+      "description": "Ferramenta para análise estática de código JavaScript/TypeScript",
+      "image": "/tool.png",
+      "type": "LIBRARY",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Babel"
+      ],
+      "repositoryCode": "https://github.com/user/code-analyzer",
+      "demoLink": null
+    },
+    {
+      "name": "App de Finanças Pessoais",
+      "description": "Aplicativo para controle de gastos e orçamento pessoal",
+      "image": "/finance.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "FINANCE"
+      ],
+      "technologies": [
+        "Flutter",
+        "Firebase"
+      ],
+      "repositoryCode": "https://github.com/user/personal-finance",
+      "demoLink": "https://play.google.com/finance-app"
+    },
+    {
+      "name": "Sistema de Recomendação de Filmes",
+      "description": "API que recomenda filmes baseado no histórico do usuário",
+      "image": "/recommendation.png",
+      "type": "BACKEND",
+      "categories": [
+        "ENTERTAINMENT"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Redis"
+      ],
+      "repositoryCode": "https://github.com/user/movie-recommendation",
+      "demoLink": null
+    },
+    {
+      "name": "Editor de Texto Markdown",
+      "description": "Editor de texto com suporte a Markdown e preview em tempo real",
+      "image": "/editor.png",
+      "type": "DESKTOP",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Electron.js",
+        "React"
+      ],
+      "repositoryCode": "https://github.com/user/markdown-editor",
+      "demoLink": "https://markdown-editor-download.com"
+    },
+    {
+      "name": "Plataforma de Blog Pessoal",
+      "description": "Sistema de blog com CMS integrado",
+      "image": "/blog.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "BLOG"
+      ],
+      "technologies": [
+        "Next.js",
+        "Strapi",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/personal-blog",
+      "demoLink": "https://my-blog-demo.com"
+    },
+    {
+      "name": "API de Autenticação JWT",
+      "description": "Microsserviço de autenticação com JWT e refresh tokens",
+      "image": "/auth.png",
+      "type": "BACKEND",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Nest.js",
+        "Redis",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/auth-service",
+      "demoLink": null
+    },
+    {
+      "name": "Visualizador 3D de Modelos",
+      "description": "Aplicação web para visualização de modelos 3D",
+      "image": "/3dviewer.png",
+      "type": "FRONTEND",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Babylon.js",
+        "TypeScript"
+      ],
+      "repositoryCode": "https://github.com/user/3d-viewer",
+      "demoLink": "https://3d-viewer-demo.com"
+    },
+    {
+      "name": "Sistema de Votação Online",
+      "description": "Plataforma para criação e participação em enquetes",
+      "image": "/poll.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/online-voting",
+      "demoLink": "https://vote-demo.com"
+    },
+    {
+      "name": "Conversor de Arquivos",
+      "description": "CLI para conversão entre formatos de arquivo (JSON, CSV, XML)",
+      "image": "/converter.png",
+      "type": "CLI",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Python",
+        "Click"
+      ],
+      "repositoryCode": "https://github.com/user/file-converter",
+      "demoLink": null
+    },
+    {
+      "name": "Dashboard de Métricas AWS",
+      "description": "Visualização de métricas e custos da AWS",
+      "image": "/aws-dashboard.png",
+      "type": "FRONTEND",
+      "categories": [
+        "DASHBOARD"
+      ],
+      "technologies": [
+        "React",
+        "AWS SDK",
+        "Chart.js"
+      ],
+      "repositoryCode": "https://github.com/user/aws-metrics",
+      "demoLink": "https://aws-dashboard-demo.com"
+    },
+    {
+      "name": "App de Receitas Culinárias",
+      "description": "Aplicativo mobile com receitas e modo offline",
+      "image": "/recipes.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Flutter",
+        "SQLite"
+      ],
+      "repositoryCode": "https://github.com/user/recipes-app",
+      "demoLink": "https://play.google.com/recipes-app"
+    },
+    {
+      "name": "Sistema de Tickets de Suporte",
+      "description": "Plataforma para gerenciamento de tickets de atendimento",
+      "image": "/support.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "CRM"
+      ],
+      "technologies": [
+        "Angular",
+        "ASP.NET Core",
+        "SQL Server"
+      ],
+      "repositoryCode": "https://github.com/user/support-tickets",
+      "demoLink": "https://support-system-demo.com"
+    },
+    {
+      "name": "Extrator de Dados Web",
+      "description": "Ferramenta para extração e estruturação de dados de websites",
+      "image": "/scraper.png",
+      "type": "BACKEND",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Python",
+        "Scrapy",
+        "BeautifulSoup"
+      ],
+      "repositoryCode": "https://github.com/user/web-scraper",
+      "demoLink": null
+    },
+    {
+      "name": "Player de Música Desktop",
+      "description": "Aplicativo desktop para reprodução de arquivos de áudio",
+      "image": "/music.png",
+      "type": "DESKTOP",
+      "categories": [
+        "ENTERTAINMENT"
+      ],
+      "technologies": [
+        "Electron.js",
+        "React"
+      ],
+      "repositoryCode": "https://github.com/user/music-player",
+      "demoLink": "https://music-player-download.com"
+    },
+    {
+      "name": "Landing Page Generator",
+      "description": "Gerador automatizado de landing pages com templates",
+      "image": "/lp-generator.png",
+      "type": "FRONTEND",
+      "categories": [
+        "LP"
+      ],
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS"
+      ],
+      "repositoryCode": "https://github.com/user/lp-generator",
+      "demoLink": "https://lp-generator-demo.com"
+    },
+    {
+      "name": "Sistema de Reservas de Hotel",
+      "description": "Plataforma para reservas e gestão hoteleira",
+      "image": "/hotel.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/hotel-booking",
+      "demoLink": "https://hotel-system-demo.com"
+    },
+    {
+      "name": "API de Geolocalização",
+      "description": "Serviço de geocodificação e cálculo de rotas",
+      "image": "/geo.png",
+      "type": "API",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Fastify.js",
+        "PostGIS",
+        "Redis"
+      ],
+      "repositoryCode": "https://github.com/user/geo-api",
+      "demoLink": "https://geo-api-docs.com"
+    },
+    {
+      "name": "App de Monitoramento de Hábitos",
+      "description": "Acompanhamento de hábitos diários com gráficos",
+      "image": "/habits.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "React Native",
+        "Expo",
+        "SQLite"
+      ],
+      "repositoryCode": "https://github.com/user/habit-tracker",
+      "demoLink": "https://expo.io/habits-app"
+    },
+    {
+      "name": "Visualizador de Dados CSV",
+      "description": "Ferramenta para visualização e filtragem de arquivos CSV",
+      "image": "/csv.png",
+      "type": "DESKTOP",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Python",
+        "PyQt",
+        "Pandas"
+      ],
+      "repositoryCode": "https://github.com/user/csv-viewer",
+      "demoLink": "https://csv-viewer-download.com"
+    },
+    {
+      "name": "Plataforma de Crowdfunding",
+      "description": "Sistema para financiamento coletivo de projetos",
+      "image": "/crowdfunding.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "Next.js",
+        "Nest.js",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/crowdfunding-platform",
+      "demoLink": "https://crowdfunding-demo.com"
+    },
+    {
+      "name": "CLI para Gerenciamento de Projetos",
+      "description": "Ferramenta de linha de comando para organização de projetos",
+      "image": "/project-cli.png",
+      "type": "CLI",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Node.js",
+        "Commander.js"
+      ],
+      "repositoryCode": "https://github.com/user/project-cli",
+      "demoLink": null
+    },
+    {
+      "name": "Sistema de Biblioteca Digital",
+      "description": "Plataforma para empréstimo e gestão de livros digitais",
+      "image": "/library.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "Angular",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/digital-library",
+      "demoLink": "https://library-demo.com"
+    },
+    {
+      "name": "Gerador de QR Code",
+      "description": "Aplicação web para geração e download de QR Codes",
+      "image": "/qrcode.png",
+      "type": "FRONTEND",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "React",
+        "QR Code library"
+      ],
+      "repositoryCode": "https://github.com/user/qr-generator",
+      "demoLink": "https://qr-generator-demo.com"
+    },
+    {
+      "name": "Monitor de Servidores",
+      "description": "Dashboard para monitoramento de status de servidores",
+      "image": "/monitor.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "DASHBOARD"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "Socket.io"
+      ],
+      "repositoryCode": "https://github.com/user/server-monitor",
+      "demoLink": "https://server-monitor-demo.com"
+    },
+    {
+      "name": "App de Notas Rápidas",
+      "description": "Aplicativo para criação e organização de notas",
+      "image": "/notes.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Flutter",
+        "Firebase"
+      ],
+      "repositoryCode": "https://github.com/user/notes-app",
+      "demoLink": "https://play.google.com/notes-app"
+    },
+    {
+      "name": "Sistema de Pontos de Fidelidade",
+      "description": "Plataforma para gestão de programas de fidelidade",
+      "image": "/loyalty.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "CRM"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/loyalty-system",
+      "demoLink": "https://loyalty-demo.com"
+    },
+    {
+      "name": "Validador de Formulários",
+      "description": "Biblioteca para validação de formulários frontend",
+      "image": "/validator.png",
+      "type": "LIBRARY",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "TypeScript"
+      ],
+      "repositoryCode": "https://github.com/user/form-validator",
+      "demoLink": "https://www.npmjs.com/package/form-validator"
+    },
+    {
+      "name": "Plataforma de Doações",
+      "description": "Sistema para arrecadação de doações com múltiplos gateways",
+      "image": "/donation.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "Next.js",
+        "Stripe",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/donation-platform",
+      "demoLink": "https://donation-demo.com"
+    },
+    {
+      "name": "App de Previsão do Tempo",
+      "description": "Aplicativo mobile com previsão do tempo local",
+      "image": "/weather.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "React Native",
+        "OpenWeather API"
+      ],
+      "repositoryCode": "https://github.com/user/weather-app",
+      "demoLink": "https://expo.io/weather-app"
+    },
+    {
+      "name": "Sistema de Inventário",
+      "description": "Gestão de estoque e inventário com relatórios",
+      "image": "/inventory.png",
+      "type": "DESKTOP",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Java",
+        "JavaFX",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/inventory-system",
+      "demoLink": "https://inventory-download.com"
+    },
+    {
+      "name": "API de Encurtamento de URLs",
+      "description": "Serviço para encurtar URLs com analytics",
+      "image": "/urlshortener.png",
+      "type": "API",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "FastAPI",
+        "Redis",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/url-shortener",
+      "demoLink": "https://url-shortener-docs.com"
+    },
+    {
+      "name": "Plataforma de Eventos",
+      "description": "Sistema para criação e venda de ingressos para eventos",
+      "image": "/events.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/events-platform",
+      "demoLink": "https://events-demo.com"
+    },
+    {
+      "name": "Editor de Imagens Online",
+      "description": "Ferramenta web básica para edição de imagens",
+      "image": "/image-editor.png",
+      "type": "FRONTEND",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "React",
+        "Fabric.js"
+      ],
+      "repositoryCode": "https://github.com/user/image-editor",
+      "demoLink": "https://image-editor-demo.com"
+    },
+    {
+      "name": "Sistema de Chamados Técnicos",
+      "description": "Plataforma para abertura e acompanhamento de chamados técnicos",
+      "image": "/tickets.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "CRM"
+      ],
+      "technologies": [
+        "Angular",
+        ".NET Core",
+        "SQL Server"
+      ],
+      "repositoryCode": "https://github.com/user/tech-support",
+      "demoLink": "https://support-demo.com"
+    },
+    {
+      "name": "App de Lista de Compras",
+      "description": "Aplicativo para gerenciar listas de compras compartilhadas",
+      "image": "/shopping.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Flutter",
+        "Firebase"
+      ],
+      "repositoryCode": "https://github.com/user/shopping-list",
+      "demoLink": "https://play.google.com/shopping-app"
+    },
+    {
+      "name": "Dashboard de Redes Sociais",
+      "description": "Agregação e análise de métricas de múltiplas redes sociais",
+      "image": "/social-dashboard.png",
+      "type": "FRONTEND",
+      "categories": [
+        "DASHBOARD",
+        "SOCIAL"
+      ],
+      "technologies": [
+        "React",
+        "Chart.js",
+        "API"
+      ],
+      "repositoryCode": "https://github.com/user/social-dashboard",
+      "demoLink": "https://social-dashboard-demo.com"
+    },
+    {
+      "name": "Sistema de Reservas de Restaurante",
+      "description": "Plataforma para reservas de mesas em restaurantes",
+      "image": "/restaurant.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/restaurant-booking",
+      "demoLink": "https://restaurant-demo.com"
+    },
+    {
+      "name": "API de Conversão de Moedas",
+      "description": "Serviço para conversão de valores entre moedas",
+      "image": "/currency.png",
+      "type": "API",
+      "categories": [
+        "FINANCE"
+      ],
+      "technologies": [
+        "Node.js",
+        "Exchange Rates API",
+        "Redis"
+      ],
+      "repositoryCode": "https://github.com/user/currency-api",
+      "demoLink": "https://currency-api-docs.com"
+    },
+    {
+      "name": "Plataforma de Portfólios",
+      "description": "Sistema para criação e hospedagem de portfólios online",
+      "image": "/portfolio.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "PORTFOLIO"
+      ],
+      "technologies": [
+        "Next.js",
+        "Strapi",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/portfolio-platform",
+      "demoLink": "https://portfolio-demo.com"
+    },
+    {
+      "name": "App de Meditação",
+      "description": "Aplicativo com sessões guiadas de meditação",
+      "image": "/meditation.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "React Native",
+        "Expo"
+      ],
+      "repositoryCode": "https://github.com/user/meditation-app",
+      "demoLink": "https://expo.io/meditation-app"
+    },
+    {
+      "name": "Sistema de Gestão Escolar",
+      "description": "Plataforma para administração de instituições de ensino",
+      "image": "/school.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "Angular",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/school-management",
+      "demoLink": "https://school-demo.com"
+    },
+    {
+      "name": "Gerador de Contratos",
+      "description": "Ferramenta para criação de contratos personalizados",
+      "image": "/contract.png",
+      "type": "FRONTEND",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "React",
+        "PDFKit"
+      ],
+      "repositoryCode": "https://github.com/user/contract-generator",
+      "demoLink": "https://contract-generator-demo.com"
+    },
+    {
+      "name": "Sistema de Doações de Alimentos",
+      "description": "Plataforma para conectar doadores e instituições beneficentes",
+      "image": "/food-donation.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/food-donation",
+      "demoLink": "https://food-donation-demo.com"
+    },
+    {
+      "name": "App de Localização de Ônibus",
+      "description": "Aplicativo para rastreamento de ônibus urbanos",
+      "image": "/bus.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Flutter",
+        "Google Maps API"
+      ],
+      "repositoryCode": "https://github.com/user/bus-tracker",
+      "demoLink": "https://play.google.com/bus-tracker"
+    },
+    {
+      "name": "Sistema de Gestão de Conteúdo",
+      "description": "CMS personalizado para criação de sites",
+      "image": "/cms.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/custom-cms",
+      "demoLink": "https://cms-demo.com"
+    },
+    {
+      "name": "API de Recomendação de Livros",
+      "description": "Serviço que recomenda livros baseado em preferências",
+      "image": "/book-api.png",
+      "type": "API",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/book-recommendation",
+      "demoLink": "https://book-api-docs.com"
+    },
+    {
+      "name": "Plataforma de Freelancers",
+      "description": "Marketplace para conexão entre freelancers e clientes",
+      "image": "/freelance.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/freelance-platform",
+      "demoLink": "https://freelance-demo.com"
+    },
+    {
+      "name": "App de Treino Fitness",
+      "description": "Aplicativo com rotinas de exercícios e acompanhamento",
+      "image": "/fitness.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "React Native",
+        "Firebase"
+      ],
+      "repositoryCode": "https://github.com/user/fitness-app",
+      "demoLink": "https://expo.io/fitness-app"
+    },
+    {
+      "name": "Sistema de Gestão de Projetos",
+      "description": "Plataforma para organização e acompanhamento de projetos",
+      "image": "/project-management.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Angular",
+        ".NET Core",
+        "SQL Server"
+      ],
+      "repositoryCode": "https://github.com/user/project-management",
+      "demoLink": "https://project-management-demo.com"
+    },
+    {
+      "name": "Visualizador de Dados Meteorológicos",
+      "description": "Dashboard para visualização de dados climáticos",
+      "image": "/weather-dashboard.png",
+      "type": "FRONTEND",
+      "categories": [
+        "DASHBOARD"
+      ],
+      "technologies": [
+        "React",
+        "D3.js",
+        "API"
+      ],
+      "repositoryCode": "https://github.com/user/weather-dashboard",
+      "demoLink": "https://weather-dashboard-demo.com"
+    },
+    {
+      "name": "Sistema de Reservas de Espaços",
+      "description": "Plataforma para reserva de salas e espaços compartilhados",
+      "image": "/space-booking.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/space-booking",
+      "demoLink": "https://space-booking-demo.com"
+    },
+    {
+      "name": "App de Lembretes Diários",
+      "description": "Aplicativo para criação e gestão de lembretes recorrentes",
+      "image": "/reminders.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Flutter",
+        "SQLite"
+      ],
+      "repositoryCode": "https://github.com/user/reminders-app",
+      "demoLink": "https://play.google.com/reminders-app"
+    },
+    {
+      "name": "Plataforma de Tutoria Online",
+      "description": "Sistema para aulas particulares online",
+      "image": "/tutoring.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "Next.js",
+        "Nest.js",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/online-tutoring",
+      "demoLink": "https://tutoring-demo.com"
+    },
+    {
+      "name": "API de Gerenciamento de Tarefas",
+      "description": "Microsserviço para CRUD de tarefas com autenticação",
+      "image": "/tasks-api.png",
+      "type": "API",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Nest.js",
+        "MongoDB",
+        "JWT"
+      ],
+      "repositoryCode": "https://github.com/user/tasks-api",
+      "demoLink": "https://tasks-api-docs.com"
+    },
+    {
+      "name": "Sistema de Doação de Sangue",
+      "description": "Plataforma para cadastro de doadores e agendamento",
+      "image": "/blood-donation.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/blood-donation",
+      "demoLink": "https://blood-donation-demo.com"
+    },
+    {
+      "name": "App de Rastreamento de Encomendas",
+      "description": "Aplicativo para acompanhar status de entregas",
+      "image": "/delivery.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "React Native",
+        "Expo",
+        "API"
+      ],
+      "repositoryCode": "https://github.com/user/delivery-tracker",
+      "demoLink": "https://expo.io/delivery-app"
+    },
+    {
+      "name": "Sistema de Gestão de Condomínio",
+      "description": "Plataforma para administração de condomínios residenciais",
+      "image": "/condominium.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Angular",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/condominium-system",
+      "demoLink": "https://condominium-demo.com"
+    },
+    {
+      "name": "Visualizador de Dados Financeiros",
+      "description": "Dashboard para análise de dados de mercado financeiro",
+      "image": "/financial-dashboard.png",
+      "type": "FRONTEND",
+      "categories": [
+        "DASHBOARD",
+        "FINANCE"
+      ],
+      "technologies": [
+        "React",
+        "Chart.js",
+        "API"
+      ],
+      "repositoryCode": "https://github.com/user/financial-dashboard",
+      "demoLink": "https://financial-dashboard-demo.com"
+    },
+    {
+      "name": "Plataforma de Aprendizado de Idiomas",
+      "description": "Sistema para prática e ensino de línguas estrangeiras",
+      "image": "/language.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "Next.js",
+        "Django",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/language-learning",
+      "demoLink": "https://language-demo.com"
+    },
+    {
+      "name": "API de Cálculo de Rota",
+      "description": "Serviço para cálculo de rotas e distâncias",
+      "image": "/route.png",
+      "type": "API",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Node.js",
+        "Google Maps API",
+        "Redis"
+      ],
+      "repositoryCode": "https://github.com/user/route-api",
+      "demoLink": "https://route-api-docs.com"
+    },
+    {
+      "name": "Sistema de Gestão de Clínicas",
+      "description": "Plataforma para administração de clínicas médicas",
+      "image": "/clinic.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/clinic-management",
+      "demoLink": "https://clinic-demo.com"
+    },
+    {
+      "name": "App de Diário Pessoal",
+      "description": "Aplicativo para registro de pensamentos e memórias",
+      "image": "/diary.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Flutter",
+        "SQLite"
+      ],
+      "repositoryCode": "https://github.com/user/diary-app",
+      "demoLink": "https://play.google.com/diary-app"
+    },
+    {
+      "name": "Plataforma de Vendas B2B",
+      "description": "Sistema para negociações entre empresas",
+      "image": "/b2b.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "ECOMMERCE"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/b2b-platform",
+      "demoLink": "https://b2b-demo.com"
+    },
+    {
+      "name": "Sistema de Gestão de Frota",
+      "description": "Plataforma para controle de veículos corporativos",
+      "image": "/fleet.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Angular",
+        ".NET Core",
+        "SQL Server"
+      ],
+      "repositoryCode": "https://github.com/user/fleet-management",
+      "demoLink": "https://fleet-demo.com"
+    },
+    {
+      "name": "App de Receitas Fitness",
+      "description": "Aplicativo com receitas saudáveis e planejamento alimentar",
+      "image": "/fit-recipes.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "React Native",
+        "Firebase"
+      ],
+      "repositoryCode": "https://github.com/user/fit-recipes",
+      "demoLink": "https://expo.io/fit-recipes"
+    },
+    {
+      "name": "Plataforma de Doação de Roupas",
+      "description": "Sistema para conectar doadores e instituições de caridade",
+      "image": "/clothes-donation.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/clothes-donation",
+      "demoLink": "https://clothes-donation-demo.com"
+    },
+    {
+      "name": "API de Gerenciamento de Arquivos",
+      "description": "Serviço para upload, download e organização de arquivos",
+      "image": "/files-api.png",
+      "type": "API",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Node.js",
+        "AWS S3",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/files-api",
+      "demoLink": "https://files-api-docs.com"
+    },
+    {
+      "name": "Sistema de Gestão de Eventos Acadêmicos",
+      "description": "Plataforma para organização de congressos e seminários",
+      "image": "/academic.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/academic-events",
+      "demoLink": "https://academic-demo.com"
+    },
+    {
+      "name": "App de Monitoramento de Sono",
+      "description": "Acompanhamento de padrões de sono e qualidade",
+      "image": "/sleep.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "Flutter",
+        "Health API"
+      ],
+      "repositoryCode": "https://github.com/user/sleep-tracker",
+      "demoLink": "https://play.google.com/sleep-tracker"
+    },
+    {
+      "name": "Plataforma de Crowdsourcing",
+      "description": "Sistema para coleta e análise de dados colaborativos",
+      "image": "/crowdsourcing.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/crowdsourcing-platform",
+      "demoLink": "https://crowdsourcing-demo.com"
+    },
+    {
+      "name": "Sistema de Gestão de Transportes",
+      "description": "Plataforma para logística e controle de frotas",
+      "image": "/transport.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Angular",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/transport-management",
+      "demoLink": "https://transport-demo.com"
+    },
+    {
+      "name": "App de Controle Parental",
+      "description": "Aplicativo para monitoramento de atividades online de crianças",
+      "image": "/parental.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "React Native",
+        "Firebase"
+      ],
+      "repositoryCode": "https://github.com/user/parental-control",
+      "demoLink": "https://play.google.com/parental-control"
+    },
+    {
+      "name": "Plataforma de Mentoria",
+      "description": "Sistema para conexão entre mentores e aprendizes",
+      "image": "/mentoring.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "Next.js",
+        "Nest.js",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/mentoring-platform",
+      "demoLink": "https://mentoring-demo.com"
+    },
+    {
+      "name": "API de Análise de Texto",
+      "description": "Serviço para processamento de linguagem natural",
+      "image": "/nlp-api.png",
+      "type": "API",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "NLTK"
+      ],
+      "repositoryCode": "https://github.com/user/nlp-api",
+      "demoLink": "https://nlp-api-docs.com"
+    },
+    {
+      "name": "Sistema de Gestão de Museus",
+      "description": "Plataforma para administração de acervos e visitantes",
+      "image": "/museum.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/museum-management",
+      "demoLink": "https://museum-demo.com"
+    },
+    {
+      "name": "App de Guia Turístico",
+      "description": "Aplicativo com pontos turísticos e rotas personalizadas",
+      "image": "/tourist.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Flutter",
+        "Google Maps API"
+      ],
+      "repositoryCode": "https://github.com/user/tourist-guide",
+      "demoLink": "https://play.google.com/tourist-guide"
+    },
+    {
+      "name": "Plataforma de Doação de Brinquedos",
+      "description": "Sistema para arrecadação de brinquedos em épocas festivas",
+      "image": "/toys.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/toys-donation",
+      "demoLink": "https://toys-donation-demo.com"
+    },
+    {
+      "name": "Sistema de Gestão de Bibliotecas",
+      "description": "Plataforma para controle de acervo e empréstimos",
+      "image": "/library-system.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "Angular",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/library-system",
+      "demoLink": "https://library-system-demo.com"
+    },
+    {
+      "name": "App de Controle de Gastos",
+      "description": "Aplicativo para registro e análise de despesas pessoais",
+      "image": "/expenses.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "FINANCE"
+      ],
+      "technologies": [
+        "React Native",
+        "SQLite"
+      ],
+      "repositoryCode": "https://github.com/user/expenses-app",
+      "demoLink": "https://expo.io/expenses-app"
+    },
+    {
+      "name": "Plataforma de Adoção de Animais",
+      "description": "Sistema para conectar animais abandonados e adotantes",
+      "image": "/pets.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/pet-adoption",
+      "demoLink": "https://pet-adoption-demo.com"
+    },
+    {
+      "name": "API de Gerenciamento de Conteúdo",
+      "description": "Serviço headless CMS para criação e distribuição de conteúdo",
+      "image": "/content-api.png",
+      "type": "API",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Node.js",
+        "MongoDB",
+        "Redis"
+      ],
+      "repositoryCode": "https://github.com/user/content-api",
+      "demoLink": "https://content-api-docs.com"
+    },
+    {
+      "name": "Sistema de Gestão de ONGs",
+      "description": "Plataforma para administração de organizações não-governamentais",
+      "image": "/ngo.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "Next.js",
+        "Django",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/ngo-management",
+      "demoLink": "https://ngo-demo.com"
+    },
+    {
+      "name": "App de Acompanhamento de Plantas",
+      "description": "Aplicativo para registro de cuidados com plantas domésticas",
+      "image": "/plants.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Flutter",
+        "Firebase"
+      ],
+      "repositoryCode": "https://github.com/user/plants-app",
+      "demoLink": "https://play.google.com/plants-app"
+    },
+    {
+      "name": "Plataforma de Recrutamento",
+      "description": "Sistema para gestão de processos seletivos",
+      "image": "/recruitment.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Angular",
+        ".NET Core",
+        "SQL Server"
+      ],
+      "repositoryCode": "https://github.com/user/recruitment-platform",
+      "demoLink": "https://recruitment-demo.com"
+    },
+    {
+      "name": "Sistema de Gestão de Igrejas",
+      "description": "Plataforma para administração de comunidades religiosas",
+      "image": "/church.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/church-management",
+      "demoLink": "https://church-demo.com"
+    },
+    {
+      "name": "App de Rastreamento de Hábitos",
+      "description": "Aplicativo para formação e acompanhamento de novos hábitos",
+      "image": "/habits.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "React Native",
+        "SQLite"
+      ],
+      "repositoryCode": "https://github.com/user/habits-tracker",
+      "demoLink": "https://expo.io/habits-tracker"
+    },
+    {
+      "name": "Plataforma de Microblogging",
+      "description": "Sistema simplificado de postagens curtas",
+      "image": "/microblog.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/microblog-platform",
+      "demoLink": "https://microblog-demo.com"
+    },
+    {
+      "name": "API de Gerenciamento de Identidade",
+      "description": "Serviço centralizado de autenticação e autorização",
+      "image": "/identity.png",
+      "type": "API",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Nest.js",
+        "PostgreSQL",
+        "JWT"
+      ],
+      "repositoryCode": "https://github.com/user/identity-api",
+      "demoLink": "https://identity-api-docs.com"
+    },
+    {
+      "name": "Sistema de Gestão de Cooperativas",
+      "description": "Plataforma para administração de cooperativas",
+      "image": "/cooperative.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Angular",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/cooperative-system",
+      "demoLink": "https://cooperative-demo.com"
+    },
+    {
+      "name": "App de Controle de Água",
+      "description": "Aplicativo para registro de consumo diário de água",
+      "image": "/water.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "Flutter",
+        "Health API"
+      ],
+      "repositoryCode": "https://github.com/user/water-tracker",
+      "demoLink": "https://play.google.com/water-tracker"
+    },
+    {
+      "name": "Plataforma de Doação de Alimentos para Pets",
+      "description": "Sistema para arrecadação de ração e suprimentos",
+      "image": "/pet-food.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/pet-food-donation",
+      "demoLink": "https://pet-food-demo.com"
+    },
+    {
+      "name": "Sistema de Gestão de Aluguéis",
+      "description": "Plataforma para administração de imóveis alugados",
+      "image": "/rental.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/rental-system",
+      "demoLink": "https://rental-demo.com"
+    },
+    {
+      "name": "App de Treino de Pronúncia",
+      "description": "Aplicativo para prática de pronúncia em idiomas estrangeiros",
+      "image": "/pronunciation.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "React Native",
+        "Speech API"
+      ],
+      "repositoryCode": "https://github.com/user/pronunciation-app",
+      "demoLink": "https://expo.io/pronunciation-app"
+    },
+    {
+      "name": "Plataforma de Voluntariado",
+      "description": "Sistema para conexão entre voluntários e oportunidades",
+      "image": "/volunteer.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/volunteer-platform",
+      "demoLink": "https://volunteer-demo.com"
+    },
+    {
+      "name": "API de Agendamento",
+      "description": "Serviço para gerenciamento de agendas e disponibilidade",
+      "image": "/scheduling.png",
+      "type": "API",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Node.js",
+        "MongoDB",
+        "Redis"
+      ],
+      "repositoryCode": "https://github.com/user/scheduling-api",
+      "demoLink": "https://scheduling-api-docs.com"
+    },
+    {
+      "name": "Sistema de Gestão de Associações",
+      "description": "Plataforma para administração de associações de bairro",
+      "image": "/association.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Angular",
+        ".NET Core",
+        "SQL Server"
+      ],
+      "repositoryCode": "https://github.com/user/association-system",
+      "demoLink": "https://association-demo.com"
+    },
+    {
+      "name": "App de Rastreamento de Ciclismo",
+      "description": "Aplicativo para registro de rotas e desempenho em ciclismo",
+      "image": "/cycling.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "Flutter",
+        "Google Maps API"
+      ],
+      "repositoryCode": "https://github.com/user/cycling-tracker",
+      "demoLink": "https://play.google.com/cycling-tracker"
+    },
+    {
+      "name": "Plataforma de Troca de Livros",
+      "description": "Sistema para troca de livros entre usuários",
+      "image": "/book-exchange.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "Next.js",
+        "Django",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/book-exchange",
+      "demoLink": "https://book-exchange-demo.com"
+    },
+    {
+      "name": "Sistema de Gestão de Feiras Livres",
+      "description": "Plataforma para administração de feiras e permissionários",
+      "image": "/market.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/market-system",
+      "demoLink": "https://market-demo.com"
+    },
+    {
+      "name": "App de Controle de Medicação",
+      "description": "Aplicativo para lembrete de horários de medicamentos",
+      "image": "/medication.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "React Native",
+        "SQLite"
+      ],
+      "repositoryCode": "https://github.com/user/medication-app",
+      "demoLink": "https://expo.io/medication-app"
+    },
+    {
+      "name": "Plataforma de Apoio a Agricultores",
+      "description": "Sistema para conexão entre agricultores e consumidores",
+      "image": "/farmers.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/farmers-platform",
+      "demoLink": "https://farmers-demo.com"
+    },
+    {
+      "name": "API de Notificações",
+      "description": "Serviço para envio de notificações por múltiplos canais",
+      "image": "/notifications.png",
+      "type": "API",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Node.js",
+        "Firebase",
+        "Redis"
+      ],
+      "repositoryCode": "https://github.com/user/notifications-api",
+      "demoLink": "https://notifications-api-docs.com"
+    },
+    {
+      "name": "Sistema de Gestão de Clubes",
+      "description": "Plataforma para administração de clubes sociais e esportivos",
+      "image": "/club.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Angular",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/club-management",
+      "demoLink": "https://club-demo.com"
+    },
+    {
+      "name": "App de Registro de Sonhos",
+      "description": "Aplicativo para registro e análise de sonhos",
+      "image": "/dreams.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Flutter",
+        "Firebase"
+      ],
+      "repositoryCode": "https://github.com/user/dream-journal",
+      "demoLink": "https://play.google.com/dream-journal"
+    },
+    {
+      "name": "Plataforma de Doação de Material Escolar",
+      "description": "Sistema para arrecadação de materiais escolares",
+      "image": "/school-supplies.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/school-supplies",
+      "demoLink": "https://school-supplies-demo.com"
+    },
+    {
+      "name": "Sistema de Gestão de Parques",
+      "description": "Plataforma para administração de parques urbanos",
+      "image": "/park.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/park-management",
+      "demoLink": "https://park-demo.com"
+    },
+    {
+      "name": "App de Controle de Leitura",
+      "description": "Aplicativo para registro e acompanhamento de livros lidos",
+      "image": "/reading.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "React Native",
+        "SQLite"
+      ],
+      "repositoryCode": "https://github.com/user/reading-tracker",
+      "demoLink": "https://expo.io/reading-tracker"
+    },
+    {
+      "name": "Plataforma de Apoio a Artistas",
+      "description": "Sistema para divulgação e venda de obras artísticas",
+      "image": "/artists.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "repositoryCode": "https://github.com/user/artists-platform",
+      "demoLink": "https://artists-demo.com"
+    },
+    {
+      "name": "API de Gerenciamento de Conteúdo Educacional",
+      "description": "Serviço para organização e distribuição de materiais didáticos",
+      "image": "/education-api.png",
+      "type": "API",
+      "categories": [
+        "EDUCATION"
+      ],
+      "technologies": [
+        "Nest.js",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "repositoryCode": "https://github.com/user/education-api",
+      "demoLink": "https://education-api-docs.com"
+    },
+    {
+      "name": "Sistema de Gestão de Praias",
+      "description": "Plataforma para monitoramento e informações sobre praias",
+      "image": "/beach.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Angular",
+        ".NET Core",
+        "SQL Server"
+      ],
+      "repositoryCode": "https://github.com/user/beach-management",
+      "demoLink": "https://beach-demo.com"
+    },
+    {
+      "name": "App de Registro de Humor",
+      "description": "Aplicativo para registro diário de estado emocional",
+      "image": "/mood.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "HEALTHCARE"
+      ],
+      "technologies": [
+        "Flutter",
+        "Firebase"
+      ],
+      "repositoryCode": "https://github.com/user/mood-tracker",
+      "demoLink": "https://play.google.com/mood-tracker"
+    },
+    {
+      "name": "Plataforma de Doação de Computadores",
+      "description": "Sistema para arrecadação e redistribuição de equipamentos",
+      "image": "/computers.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "SOCIAL"
+      ],
+      "technologies": [
+        "Next.js",
+        "Django",
+        "PostgreSQL"
+      ],
+      "repositoryCode": "https://github.com/user/computers-donation",
+      "demoLink": "https://computers-demo.com"
+    },
+    {
+      "name": "Sistema de Gestão de Hoteis para Pets",
+      "description": "Plataforma para administração de hotéis e creches para animais",
+      "image": "/pet-hotel.png",
+      "type": "FULLSTACK",
+      "categories": [
+        "OTHER"
+      ],
+      "technologies": [
+        "Vue.js",
+        "Laravel",
+        "MySQL"
+      ],
+      "repositoryCode": "https://github.com/user/pet-hotel",
+      "demoLink": "https://pet-hotel-demo.com"
+    },
+    {
+      "name": "App de Controle de Séries",
+      "description": "Aplicativo para acompanhamento de séries assistidas",
+      "image": "/tvshows.png",
+      "type": "MOBILE_NATIVE",
+      "categories": [
+        "ENTERTAINMENT"
+      ],
+      "technologies": [
+        "React Native",
+        "TVMaze API"
+      ],
+      "repositoryCode": "https://github.com/user/tvshows-tracker",
+      "demoLink": "https://expo.io/tvshows-tracker"
+    }
+  ]
 }
