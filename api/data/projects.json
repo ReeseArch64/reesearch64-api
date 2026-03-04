@@ -1,0 +1,134 @@
+[
+  {
+    "category": "Frontend",
+    "imageUrl": "",
+    "stack": [
+      "Next.js",
+      "TypeScript"
+    ],
+    "summary": "Painel administrativo com métricas e gestão de pedidos.",
+    "title": "E-commerce Dashboard",
+    "url": ""
+  },
+  {
+    "category": "Backend",
+    "imageUrl": "",
+    "stack": [
+      "Node.js",
+      "Prisma"
+    ],
+    "summary": "API REST para gerenciamento de tarefas com autenticação JWT.",
+    "title": "TaskFlow API",
+    "url": ""
+  },
+  {
+    "category": "Frontend",
+    "imageUrl": "",
+    "stack": [
+      "React",
+      "Tailwind CSS"
+    ],
+    "summary": "Site pessoal com animações e conteúdo dinâmico.",
+    "title": "Portfólio Interativo",
+    "url": ""
+  },
+  {
+    "category": "Full Stack",
+    "imageUrl": "",
+    "stack": [
+      "Next.js",
+      "PostgreSQL"
+    ],
+    "summary": "Sistema de assinatura com checkout e controle de planos.",
+    "title": "SaaS Billing App",
+    "url": ""
+  },
+  {
+    "category": "Data",
+    "imageUrl": "",
+    "stack": [
+      "GraphQL",
+      "Docker"
+    ],
+    "summary": "Visualização de dados em tempo real para times de produto.",
+    "title": "Analytics Platform",
+    "url": ""
+  },
+  {
+    "category": "Full Stack",
+    "imageUrl": "",
+    "stack": [
+      "Node.js",
+      "React"
+    ],
+    "summary": "Mensageria com websockets e presença online.",
+    "title": "Chat em Tempo Real",
+    "url": ""
+  },
+  {
+    "category": "DevOps",
+    "imageUrl": "",
+    "stack": [
+      "Docker",
+      "Git"
+    ],
+    "summary": "Template de CI/CD e observabilidade para novos projetos.",
+    "title": "DevOps Starter Kit",
+    "url": ""
+  },
+  {
+    "category": "Full Stack",
+    "imageUrl": "",
+    "stack": [
+      "Next.js",
+      "Prisma"
+    ],
+    "summary": "Plataforma de cursos com trilhas e progresso por aluno.",
+    "title": "LMS Educacional",
+    "url": ""
+  },
+  {
+    "category": "Frontend",
+    "imageUrl": "",
+    "stack": [
+      "React",
+      "Figma"
+    ],
+    "summary": "Documentação de componentes e guidelines de UI.",
+    "title": "Design System Docs",
+    "url": ""
+  },
+  {
+    "category": "Backend",
+    "imageUrl": "",
+    "stack": [
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "summary": "Serviço para orquestrar múltiplos provedores de pagamento.",
+    "title": "Gateway de Pagamentos",
+    "url": ""
+  },
+  {
+    "category": "DevOps",
+    "imageUrl": "",
+    "stack": [
+      "Docker",
+      "TypeScript"
+    ],
+    "summary": "Coleta e busca de logs com alertas em tempo real.",
+    "title": "Monitor de Logs",
+    "url": ""
+  },
+  {
+    "category": "Data",
+    "imageUrl": "",
+    "stack": [
+      "GraphQL",
+      "Node.js"
+    ],
+    "summary": "Motor de sugestão com base em histórico de uso.",
+    "title": "Recomendação de Conteúdo",
+    "url": ""
+  }
+]
